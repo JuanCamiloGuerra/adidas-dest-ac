@@ -1,0 +1,71 @@
+{
+  "kpis": {
+    "total_revenue": 4174258.9200000004,
+    "units_sold": 45414.0,
+    "orders": 200,
+    "customers": 85,
+    "average_order_revenue": 20871.2946,
+    "average_unit_price": 91.9156850310477,
+    "leading_country": "Colombia",
+    "leading_country_share": 0.2704864100763543,
+    "leading_channel": "E-commerce B2B",
+    "leading_channel_share": 0.3781810137450697,
+    "leading_category": "Footwear",
+    "leading_category_share": 0.47849293210589816,
+    "delivered_order_rate": 0.465,
+    "latest_month_change": 0.13550538652826205,
+    "formula_notes": {
+      "total_revenue": "Suma de unit_price × quantity para líneas válidas.",
+      "units_sold": "Suma de quantity para líneas válidas.",
+      "orders": "Conteo distinto de order_id con al menos una línea válida.",
+      "customers": "Conteo distinto de user_id con al menos una línea válida.",
+      "average_order_revenue": "Ingreso total dividido por pedidos distintos.",
+      "average_unit_price": "Ingreso total dividido por unidades vendidas.",
+      "delivered_order_rate": "Pedidos entregados divididos por pedidos totales, a nivel pedido."
+    }
+  },
+  "insights": [
+    {
+      "title": "Concentración geográfica",
+      "observation": "Colombia genera 27.0% de los ingresos ($1,129,080).",
+      "importance": "La exposición al mercado líder condiciona el crecimiento regional.",
+      "implication": "Una desaceleración local tendría impacto material sobre el total.",
+      "action": "Proteger cuentas clave en Colombia y desarrollar Perú con metas de participación trimestrales."
+    },
+    {
+      "title": "Canal que sostiene el negocio",
+      "observation": "E-commerce B2B concentra 37.8% del revenue ($1,578,625).",
+      "importance": "La mezcla de canales determina cobertura, costo comercial y escalabilidad.",
+      "implication": "Existe oportunidad de replicar las prácticas del canal líder sin depender exclusivamente de él.",
+      "action": "Analizar surtido y ticket de E-commerce B2B y transferir las combinaciones ganadoras a Distributor."
+    },
+    {
+      "title": "Categoría tractora",
+      "observation": "Footwear aporta 47.8% del ingreso ($1,997,353).",
+      "importance": "El surtido líder es el principal motor de monetización.",
+      "implication": "Disponibilidad e inventario en esta categoría tienen efecto desproporcionado.",
+      "action": "Priorizar disponibilidad de Footwear y diseñar venta cruzada con Accessories."
+    },
+    {
+      "title": "Concentración de clientes",
+      "observation": "Los 10 clientes con mayor facturación representan 26.9% del ingreso.",
+      "importance": "La concentración revela tanto valor de cuentas clave como riesgo de dependencia.",
+      "implication": "Retener estas cuentas es prioritario, pero la cartera debe ampliarse.",
+      "action": "Asignar planes de cuenta a los clientes principales y activar crecimiento en segmentos de potencial medio."
+    },
+    {
+      "title": "Cumplimiento de pedidos",
+      "observation": "46.5% de los pedidos están entregados y 13.5% cancelados.",
+      "importance": "Los pedidos no entregados representan revenue operativo aún expuesto.",
+      "implication": "Mejorar conversión de confirmados/enviados puede elevar ingreso realizado sin captar demanda nueva.",
+      "action": "Crear seguimiento semanal por estado, país y canal; investigar causas de cancelación antes de definir metas."
+    },
+    {
+      "title": "Cierre del periodo",
+      "observation": "El ingreso del último mes cambió +13.6% frente al mes anterior.",
+      "importance": "La variación mensual sirve como alerta, pero una sola anualidad no define estacionalidad.",
+      "implication": "No debe extrapolarse como tendencia estructural.",
+      "action": "Monitorear una serie histórica más larga y contrastar la variación con pedidos, unidades y calendario comercial."
+    }
+  ]
+}
