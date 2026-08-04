@@ -1,0 +1,86 @@
+user_id,customer_name,country,retailer_type,order_count,total_revenue,average_order_revenue,units,average_days_between_orders,recency_days,category_count,top_category,top_channel,dominant_price_segment,premium_revenue_share,category_concentration_hhi
+1,Valentino Gomez,Argentina,Sports Chain,2,37110.89,18555.445,407.0,305.0,47,4,Equipment,E-commerce B2B,Medio,0.0,0.36791102383743185
+2,Rafael Pérez,Colombia,Sports Chain,4,88233.37999999999,22058.345,968.0,77.66666666666667,80,4,Footwear,Direct Sales,Medio,0.25232899385697344,0.28614590697802256
+3,Ángel Osses,Chile,Online Retailer,1,28402.8,28402.8,120.0,,300,1,Footwear,Distributor,Premium,1.0,1.0
+5,Fernando Valentín,México,Sports Chain,2,21447.73,10723.865,470.0,272.0,44,3,Accessories,E-commerce B2B,Medio,0.0,0.512748209377766
+6,Roxana Jara,Chile,Independent,4,54778.34,13694.585,688.0,67.0,0,3,Apparel,E-commerce B2B,Medio,0.18541452698274535,0.4063289677635017
+7,Erasmo Mondaca,Chile,Sports Chain,1,6727.0199999999995,6727.0199999999995,183.0,,176,2,Accessories,E-commerce B2B,Medio,0.0,0.9688552060825952
+8,Luciano Vera,Argentina,Independent,1,21459.510000000002,21459.510000000002,372.0,,167,3,Equipment,Distributor,Medio,0.0,0.3449850396903097
+9,Anderson Estrada,Colombia,Department Store,1,6769.2,6769.2,120.0,,118,1,Equipment,E-commerce B2B,Medio,0.0,1.0
+10,Javier Castrillón,Colombia,Online Retailer,1,2709.2799999999997,2709.2799999999997,42.0,,37,1,Apparel,Distributor,Medio,0.0,1.0
+11,Flavio Ramos,Perú,Online Retailer,2,51161.100000000006,25580.550000000003,518.0,104.0,215,4,Footwear,E-commerce B2B,Medio,0.36478965463995106,0.32691084866576225
+12,Eder Murillo,Colombia,Online Retailer,1,58349.8,58349.799999999996,423.0,,259,2,Footwear,Direct Sales,Premium,0.4821541804770539,0.8415787507252583
+13,Lola Acuña,Argentina,Independent,1,14278.970000000001,14278.970000000001,221.0,,157,2,Footwear,Direct Sales,Medio,0.0,0.5040508994845603
+14,Maximiano Belmonte,Perú,Superstore,4,34084.05,8521.012499999999,455.0,43.333333333333336,53,4,Footwear,E-commerce B2B,Medio,0.32657504023142786,0.28200320167777493
+15,Perla Luna,México,Sports Chain,4,69179.49,17294.8725,819.0,48.666666666666664,107,4,Equipment,Direct Sales,Medio,0.18321037058816134,0.254163275218846
+16,Jonatan Gajardo,Chile,Independent,1,425.37,425.37,11.0,,75,1,Apparel,Distributor,Económico,0.0,1.0
+17,Cristian Otero,Perú,Department Store,3,69698.91,23232.97,708.0,90.0,80,4,Footwear,Distributor,Medio,0.2914513297266772,0.37109212192758134
+18,Delfina Maldonado,Argentina,Sports Chain,4,127102.43999999999,31775.61,1172.0,108.0,22,4,Footwear,E-commerce B2B,Premium,0.5031052905042579,0.46891212619055983
+19,Custodia Lara,Perú,Independent,2,30807.379999999997,15403.689999999999,430.0,74.0,8,3,Equipment,Distributor,Medio,0.0,0.36521424737082187
+21,Luis Manuel Venegas,México,Superstore,3,89654.56,29884.853333333333,898.0,64.0,154,4,Footwear,E-commerce B2B,Premium,0.5194859023344713,0.5898325284349157
+22,Eloisa Olivo,México,Independent,3,75457.08,25152.359999999997,755.0,149.5,3,3,Apparel,E-commerce B2B,Medio,0.29124265078903133,0.334989342918854
+23,Giuliana Garcia,Argentina,Sports Chain,2,12181.8,6090.9,187.0,96.0,77,4,Footwear,E-commerce B2B,Medio,0.0,0.3711309215630292
+24,Héctor Cáceres,Chile,Independent,2,34128.76,17064.379999999997,473.0,22.0,235,4,Accessories,Direct Sales,Medio,0.0,0.36600993213389793
+25,Agostina Ruiz,Argentina,Independent,2,7565.36,3782.6800000000003,170.0,107.0,157,3,Equipment,Distributor,Medio,0.0,0.6745588651803396
+26,Felipe Ampuero,Chile,Online Retailer,1,25216.25,25216.25,357.0,,205,3,Footwear,E-commerce B2B,Medio,0.0,0.4352803815082813
+28,Olga Benavides,Colombia,Sports Chain,3,80220.98000000001,26740.326666666664,719.0,180.0,1,4,Footwear,Distributor,Medio,0.44990300542326944,0.4293833152272579
+29,Maria Paz Martin,Argentina,Superstore,1,24323.550000000003,24323.550000000003,302.0,,196,3,Apparel,Distributor,Medio,0.0,0.34366187459539455
+30,Sandra Medina,Chile,Sports Chain,3,47898.549999999996,15966.183333333334,415.0,107.0,26,3,Footwear,Direct Sales,Medio,0.10871268545707544,0.38185981198047525
+31,Jesusa Hervia,Perú,Superstore,1,37200.24,37200.24,306.0,,118,3,Apparel,Distributor,Medio,0.248432536994385,0.3806690030277744
+32,Fernanda Ramos,Colombia,Sports Chain,2,57354.19,28677.095,608.0,238.0,117,3,Apparel,Direct Sales,Medio,0.0,0.3375174283438834
+34,Lorena Zelaya,México,Sports Chain,2,72358.7,36179.35,870.0,121.0,19,4,Apparel,Distributor,Medio,0.0,0.30361972151866784
+35,Mateo Ramirez,Argentina,Independent,3,83528.39,27842.796666666665,616.0,84.5,33,4,Footwear,Distributor,Premium,0.8141310996177467,0.678352055334217
+36,Patricia Pérez,Colombia,Superstore,1,21952.379999999997,21952.379999999997,294.0,,229,3,Footwear,Direct Sales,Medio,0.0,0.49534622193658306
+37,Luisina Miranda,Argentina,Independent,2,8749.31,4374.655,139.0,45.0,110,2,Accessories,Direct Sales,Medio,0.0,0.5473870398170754
+38,Bernardo Cruz,México,Sports Chain,3,48822.8,16274.266666666668,407.0,140.5,40,3,Footwear,Distributor,Premium,0.599913974618416,0.6971095720668299
+39,Emilia Jaramillo,México,Superstore,2,31745.48,15872.740000000002,483.0,94.0,108,4,Accessories,Distributor,Medio,0.0,0.3343620053802564
+40,Luis Flórez,Colombia,Department Store,3,68759.08,22919.693333333333,729.0,114.0,125,4,Footwear,E-commerce B2B,Medio,0.36574311349133815,0.3914261680511175
+41,José Haro,Perú,Online Retailer,1,25906.43,25906.43,317.0,,75,3,Equipment,Direct Sales,Medio,0.0,0.3451393472378264
+42,Sebastián Cortes,Perú,Online Retailer,2,71655.57,35827.785,652.0,161.0,104,4,Footwear,Distributor,Premium,0.6065398684289303,0.5571570561858952
+43,Arturo Rodríguez,Chile,Sports Chain,4,94761.36,23690.340000000004,1141.0,84.0,86,4,Footwear,E-commerce B2B,Medio,0.24147563943784683,0.3270312036034428
+44,Florencia Aguirre,México,Superstore,2,17454.79,8727.395,233.0,277.0,31,2,Accessories,Distributor,Medio,0.0,0.5453208199795002
+45,Maura Grau,Perú,Superstore,1,10527.900000000001,10527.900000000001,194.0,,32,1,Accessories,Direct Sales,Medio,0.0,1.0
+46,Eligio Paz,Perú,Superstore,1,17981.690000000002,17981.690000000002,292.0,,307,3,Apparel,E-commerce B2B,Medio,0.0,0.44973746137132775
+47,Elvia Sandoval,Colombia,Department Store,3,68853.56,22951.186666666665,803.0,40.0,135,4,Equipment,Distributor,Medio,0.18349610390515758,0.2522026521375655
+48,Anselmo Mayo,Perú,Sports Chain,2,46127.32,23063.66,476.0,133.0,27,4,Footwear,Direct Sales,Medio,0.4770799604225868,0.334262472669297
+49,Victor Guzman,Perú,Online Retailer,4,67576.23,16894.0575,759.0,52.333333333333336,158,3,Footwear,Direct Sales,Medio,0.28852837750788995,0.5033696542247323
+50,Carmen Vallejo,México,Independent,1,23838.699999999997,23838.7,330.0,,230,2,Accessories,Distributor,Medio,0.0,0.5755627166032868
+51,Luz Villamizar,Colombia,Online Retailer,3,85152.32,28384.10666666667,953.0,30.0,262,4,Footwear,Direct Sales,Medio,0.39189795416026246,0.3529726394626593
+52,Cándido Trujillo,Perú,Department Store,1,16003.170000000002,16003.170000000002,245.0,,46,3,Equipment,Direct Sales,Medio,0.0,0.4575448037710292
+54,Beatriz Nieves,México,Superstore,1,29185.52,29185.52,400.0,,73,2,Equipment,E-commerce B2B,Medio,0.0,0.6258800614275453
+55,Ramona Pedrero,Perú,Online Retailer,5,70660.75,14132.15,744.0,61.75,37,4,Footwear,E-commerce B2B,Medio,0.268355770353414,0.31974027576514186
+56,Víctor Pacheco,México,Department Store,1,25626.09,25626.09,298.0,,287,3,Apparel,E-commerce B2B,Medio,0.0,0.42593109312839333
+57,Margarita Pedroza,México,Superstore,5,121662.57000000002,24332.514,1099.0,62.75,69,4,Footwear,E-commerce B2B,Medio,0.4106006473478243,0.48344456141070097
+58,Carmen Lozano,Colombia,Online Retailer,4,69069.84000000001,17267.46,610.0,105.0,10,4,Footwear,E-commerce B2B,Premium,0.62673867494119,0.613382622001969
+59,Francisco Beltrán,Colombia,Superstore,3,92169.30999999998,30723.103333333333,839.0,144.5,17,4,Footwear,Distributor,Medio,0.39163686914874385,0.3816304222930985
+60,Lautaro Campos,Argentina,Superstore,2,41662.33,20831.165,410.0,115.0,103,4,Footwear,E-commerce B2B,Medio,0.39899352724631576,0.5165988097264363
+61,Agustín Arias,Argentina,Superstore,2,45763.549999999996,22881.775,589.0,218.0,6,4,Footwear,E-commerce B2B,Medio,0.13366795189621436,0.3743751718623923
+63,Guadalupe Avila,Argentina,Independent,1,16133.93,16133.93,311.0,,9,4,Accessories,E-commerce B2B,Medio,0.0,0.29037207787558966
+64,Catalina Dominguez,Argentina,Sports Chain,2,55308.54,27654.269999999997,570.0,118.0,86,4,Footwear,Direct Sales,Premium,0.5086664735680964,0.46082880328846465
+65,Josefina Duarte,Argentina,Department Store,6,166591.44999999998,27765.241666666665,1610.0,59.4,25,4,Footwear,Direct Sales,Medio,0.289733776853494,0.3626233401067508
+67,Omar Cortés,Colombia,Independent,2,84198.37999999999,42099.189999999995,946.0,220.0,55,4,Footwear,E-commerce B2B,Medio,0.294613269281428,0.48205961797162383
+68,María Letelier,Chile,Sports Chain,2,30231.100000000002,15115.55,265.0,223.0,56,3,Footwear,E-commerce B2B,Premium,0.720217259709372,0.5901657419543832
+69,Paz Navarro,Chile,Independent,1,5455.139999999999,5455.139999999999,81.0,,97,2,Apparel,Direct Sales,Medio,0.0,0.6115749796893055
+70,Olivia Tovar,México,Online Retailer,1,16973.64,16973.64,202.0,,351,2,Apparel,Direct Sales,Medio,0.0,0.7912981819340879
+71,Guadalupe Ferrer,México,Superstore,1,5690.29,5690.29,165.0,,135,2,Apparel,E-commerce B2B,Económico,0.0,0.6196342606738207
+72,Thiago Benjamin Rodriguez,Argentina,Independent,1,6094.710000000001,6094.710000000001,114.0,,244,1,Accessories,E-commerce B2B,Medio,0.0,1.0
+74,Jenny Ospina,Colombia,Superstore,5,101065.03,20213.006,1281.0,81.0,7,4,Footwear,E-commerce B2B,Medio,0.18177711914793873,0.28339397018422763
+77,Jaime Cazares,México,Sports Chain,4,114804.56,28701.14,865.0,75.33333333333333,133,4,Footwear,E-commerce B2B,Medio,0.39061427525178444,0.37249185836012755
+78,Lucía Navarro,Colombia,Sports Chain,3,22570.0,7523.333333333333,250.0,130.0,40,4,Footwear,Distributor,Medio,0.0,0.38599829629554017
+79,María Guzmán,Chile,Department Store,2,58542.84,29271.42,427.0,167.0,193,2,Footwear,E-commerce B2B,Premium,0.702590103247468,0.626738065026698
+81,Edelmira Sosa,Perú,Online Retailer,2,31617.54,15808.77,307.0,177.0,19,3,Apparel,E-commerce B2B,Medio,0.35184362856819346,0.4539635480019715
+83,Maximo Fernandez,Argentina,Independent,2,26964.05,13482.025,417.0,42.0,130,4,Accessories,Distributor,Medio,0.21829658378470593,0.3328566498734333
+85,Lucía Barrios,Colombia,Online Retailer,2,59997.28999999999,29998.644999999997,507.0,8.0,248,3,Footwear,Distributor,Medio,0.3535449684477416,0.4081411317827574
+86,Camila Valenzuela,Chile,Sports Chain,1,24674.309999999998,24674.309999999998,376.0,,300,3,Equipment,Direct Sales,Medio,0.2977372011618562,0.38228454382011867
+87,Karina Ibarra,Chile,Superstore,4,117584.77,29396.192500000005,1380.0,33.0,146,4,Footwear,Direct Sales,Medio,0.11363835639598563,0.30182942005090013
+88,Cristina Palomo,México,Independent,1,1236.41,1236.41,17.0,,149,1,Footwear,Direct Sales,Medio,0.0,1.0
+89,Tomas Benjamin Fernandez,Argentina,Sports Chain,3,68412.58,22804.193333333333,553.0,72.0,143,4,Footwear,Distributor,Medio,0.23899756448302345,0.5388700816055456
+90,Enrique Díaz,Colombia,Sports Chain,1,39692.28,39692.28,255.0,,50,2,Footwear,Distributor,Premium,0.5650831849417569,0.6120293869205882
+92,Wilmer González,Colombia,Superstore,3,83751.85,27917.283333333336,709.0,91.5,5,4,Footwear,E-commerce B2B,Medio,0.4584512461515775,0.3872093192307139
+93,Antonella Bustamante,Chile,Independent,6,88259.23000000001,14709.871666666666,953.0,47.4,21,4,Footwear,Distributor,Premium,0.5083085361157128,0.4446961047356007
+94,María José Cerdá,Perú,Online Retailer,3,82218.20000000001,27406.066666666666,1140.0,41.0,264,4,Footwear,Direct Sales,Medio,0.18141409079741466,0.29292098668395494
+95,Andrés Palma,Chile,Independent,5,98997.19,19799.438000000002,1158.0,86.0,7,4,Footwear,Direct Sales,Medio,0.08618840595374475,0.3250842386345979
+96,Sofía Muñoz,Chile,Online Retailer,1,15231.96,15231.96,238.0,,228,2,Accessories,Direct Sales,Medio,0.0,0.8507027676101033
+97,Karen Martínez,Colombia,Independent,2,38212.159999999996,19106.08,401.0,60.0,45,3,Equipment,E-commerce B2B,Medio,0.0,0.3652301228435243
+98,Chita Rey,Perú,Superstore,3,59226.56999999999,19742.19,760.0,27.5,105,4,Accessories,Distributor,Medio,0.08515772566265446,0.28182529481808954
+99,Ignacia Ariza,Perú,Department Store,4,63040.80000000001,15760.2,917.0,40.0,13,4,Accessories,Direct Sales,Medio,0.16832051623710356,0.28828142921624744

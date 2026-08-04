@@ -1,0 +1,12 @@
+{
+  "selected_model": "Jerárquico",
+  "clusters": 2,
+  "silhouette": 0.31006594637673207,
+  "smallest_cluster_share": 0.15294117647058825,
+  "pca_explained_variance": [
+    0.3892307860405368,
+    0.11971533235293244
+  ],
+  "customers_modeled": 85,
+  "random_state": 42
+}
