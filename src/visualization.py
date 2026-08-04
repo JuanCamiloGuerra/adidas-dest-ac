@@ -121,7 +121,9 @@ function renderModel(){{if(!PROFILES.length){{document.getElementById('modelNote
 bar('mlCustomers',PROFILES.map(d=>[d.segment,d.customers]),'Clientes por segmento');bar('mlRevenue',PROFILES.map(d=>[d.segment,d.total_revenue]),'Ingresos por segmento');const segments=[...new Set(PCA.map(d=>d.segment))];Plotly.react('mlPca',segments.map((s,i)=>{{const r=PCA.filter(d=>d.segment===s);return{{type:'scatter',mode:'markers',name:s,x:r.map(d=>d.pca_1),y:r.map(d=>d.pca_2),text:r.map(d=>d.customer_name),marker:{{size:9,color:colors[i%colors.length],line:{{color:'#fff',width:1}}}},hovertemplate:'%{{text}}<extra>'+s+'</extra>'}}}}),layout('Proyección PCA de clientes',{{legend:{{orientation:'h',y:-.24}}}}),cfg);
 document.getElementById('profileTable').innerHTML='<thead><tr><th>Segmento</th><th>Clientes</th><th>Participación</th><th>Revenue</th><th>Pedidos prom.</th><th>Ticket prom.</th><th>Acción</th></tr></thead><tbody>'+PROFILES.map(d=>`<tr><td><strong>${{d.segment}}</strong></td><td>${{d.customers}}</td><td>${{(d.customer_share*100).toFixed(1)}}%</td><td>${{money.format(d.total_revenue)}}</td><td>${{d.average_orders.toFixed(1)}}</td><td>${{money.format(d.average_ticket)}}</td><td>${{d.recommended_action}}</td></tr>`).join('')+'</tbody>';}}
 update();renderModel();
+// Al volver con el historial, algunos navegadores restauran los valores de los
+// selectores después del primer render. pageshow resincroniza KPIs y gráficos.
+window.addEventListener('pageshow',()=>setTimeout(update,0));
 </script></body></html>"""
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(html, encoding="utf-8")
-
