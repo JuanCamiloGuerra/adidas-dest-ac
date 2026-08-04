@@ -1,0 +1,19 @@
+regla_evaluada,registros_revisados,registros_afectados,porcentaje_afectado,accion_aplicada,justificacion,severidad
+Línea duplicada,733,0,0.0,Conservar y marcar,La clave compuesta debe ser única; no se elimina sin evidencia.,Alta
+Identificador faltante,733,0,0.0,Conservar y marcar,La trazabilidad incompleta impide uniones confiables.,Alta
+Cantidad nula,733,12,1.64,Conservar; revenue queda nulo,Imputar cantidad inventaría ventas no observadas.,Alta
+Cantidad no positiva,733,0,0.0,Conservar y excluir de KPIs,No representa una venta válida sin nota de crédito.,Alta
+Precio nulo,733,0,0.0,Conservar; revenue queda nulo,Se prioriza el precio histórico de la línea.,Alta
+Precio no positivo,733,0,0.0,Conservar y excluir de KPIs,Un precio no positivo requiere revisión de negocio.,Alta
+País inconsistente,733,0,0.0,Normalizar variantes conocidas,Mantiene comparabilidad geográfica sin inventar país.,Media
+Canal inconsistente,733,0,0.0,Normalizar variantes conocidas,Evita fragmentar el análisis comercial.,Media
+Estado inconsistente,733,0,0.0,Normalizar variantes conocidas,Los estados controlan KPIs de cumplimiento.,Media
+Fecha inválida,733,0,0.0,Conservar y marcar,No se imputa una fecha de pedido sin evidencia.,Alta
+Producto sin correspondencia,733,0,0.0,Conservar atributos de línea,La línea sigue siendo evidencia transaccional.,Alta
+Usuario sin correspondencia,733,0,0.0,Conservar y marcar,Evita perder ventas por fallas de dimensión.,Alta
+Precio distinto al catálogo,733,0,0.0,Conservar ambos precios,La línea refleja la venta histórica; el catálogo es referencia.,Baja
+Revenue extremo por IQR,733,44,6.0,Conservar y monitorear,"En mayoristas, valores altos pueden ser compras legítimas.",Media
+Cantidad extrema por IQR,733,0,0.0,Conservar y monitorear,No se eliminan outliers automáticamente.,Baja
+Inventario nulo,733,8,1.09,Conservar nulo,No afecta el cálculo histórico de ingresos.,Baja
+Calificación nula,733,18,2.46,Conservar nulo,No se inventa percepción de producto.,Baja
+Duplicado de catálogo por SKU,733,0,0.0,Conservar y marcar,Los IDs son distintos; deduplicar SKU rompería trazabilidad.,Media
