@@ -18,6 +18,7 @@ QUALITY_DIR = DATA_DIR / "quality"
 DOCS_DIR = PROJECT_ROOT / "docs"
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 MODEL_DIR = OUTPUTS_DIR / "model"
+QUANTITY_MODEL_DIR = OUTPUTS_DIR / "quantity_model"
 REPORTS_DIR = OUTPUTS_DIR / "reports"
 LOGS_DIR = OUTPUTS_DIR / "logs"
 
@@ -44,6 +45,5 @@ REQUIRED_COLUMNS = [
 def ensure_directories() -> None:
     """Crea los directorios de salida sin depender del directorio de ejecución."""
 
-    for path in [RAW_DIR, PROCESSED_DIR, QUALITY_DIR, DOCS_DIR, MODEL_DIR, REPORTS_DIR, LOGS_DIR]:
+    for path in [RAW_DIR, PROCESSED_DIR, QUALITY_DIR, DOCS_DIR, MODEL_DIR, QUANTITY_MODEL_DIR, REPORTS_DIR, LOGS_DIR]:
         path.mkdir(parents=True, exist_ok=True)
-

@@ -1,0 +1,744 @@
+transformed_feature,importance
+numeric__inventory,0.04584559562957044
+numeric__catalog_discount_percentage,0.0405768103175041
+numeric__discount_percentage,0.039157982073068955
+numeric__unit_price,0.03747755955028441
+numeric__line_discount_percentage,0.035874401781204365
+numeric__catalog_price,0.03557797615955182
+numeric__reviews,0.0349860827397385
+numeric__age,0.03380799793932509
+numeric__month,0.02649374464284461
+numeric__rating,0.02569217635732904
+numeric__line_number,0.022848061856664163
+numeric__reported_total_products,0.021969307843973294
+categorical__country_Perú,0.014797599255488963
+categorical__country_Colombia,0.011906143918337789
+categorical__channel_E-commerce B2B,0.008551875874756225
+numeric__delivered_flag,0.00844635086018933
+categorical__retailer_type_Sports Chain,0.008421913138681587
+categorical__retailer_type_Superstore,0.008075229959179645
+categorical__city_Barranquilla,0.007898233376457313
+categorical__channel_Direct Sales,0.007592715490559966
+categorical__order_status_shipped,0.007570366457538762
+categorical__category_Accessories,0.007278608291354935
+categorical__quarter_1,0.00726934779246829
+categorical__price_segment_Económico,0.0072590324404761845
+categorical__country_Chile,0.007250949503648545
+categorical__order_status_delivered,0.007201665406410945
+categorical__brand_SpeedMax,0.006559802089524355
+categorical__user_id_67,0.0064743143320908835
+categorical__category_Equipment,0.006423791659307575
+categorical__price_segment_Medio,0.006357150603417847
+categorical__order_status_confirmed,0.006334085301174736
+categorical__retailer_type_Independent,0.006211204655308817
+categorical__channel_Distributor,0.006179494705135822
+categorical__month_name_Enero,0.006103488458492603
+categorical__category_Apparel,0.006102072171473858
+categorical__quarter_3,0.00602998625231455
+categorical__user_id_23,0.005994317045884367
+categorical__category_Footwear,0.005969459532440825
+categorical__brand_SportRetail Pro,0.005929871721469587
+categorical__city_Ciudad de México,0.005848436752446637
+categorical__city_Lima,0.005643663445707469
+categorical__country_México,0.005558404605791546
+categorical__retailer_type_Online Retailer,0.00535968205633543
+categorical__brand_PowerEdge,0.00531232467800151
+categorical__quarter_4,0.005287869240539788
+categorical__quarter_2,0.004760456004267998
+categorical__brand_UrbanSport,0.00475505179193716
+categorical__product_id_112,0.004691945375492742
+categorical__year_month_2024-10,0.004653387564482927
+categorical__city_Temuco,0.004602843318097151
+categorical__user_id_14,0.004566517394529649
+categorical__country_Argentina,0.004479406344758448
+categorical__brand_CoreFit,0.004294555781056802
+categorical__year_month_2024-01,0.004175264926081138
+categorical__month_name_Octubre,0.004158526322885437
+categorical__city_Piura,0.003963897589858349
+categorical__user_id_87,0.003934834977400015
+numeric__canceled_flag,0.0038764438433909186
+categorical__month_name_Diciembre,0.003813062062355556
+categorical__year_month_2024-12,0.0037629439756939383
+categorical__product_name_PowerEdge Training Gloves v2,0.003729873659635835
+categorical__price_segment_Premium,0.003698318899268657
+categorical__order_id_120,0.0036824583010414604
+categorical__month_name_Noviembre,0.0035849942052857487
+categorical__year_month_2024-07,0.003551267545851745
+categorical__city_Cusco,0.0035004609862017933
+categorical__month_name_Agosto,0.003399345369749682
+categorical__city_Tucumán,0.0033234519907664657
+categorical__order_id_126,0.0033131621297276927
+categorical__sku_SR-EQU-0112,0.0032534645325168637
+categorical__brand_AthletX,0.0032458143381265186
+categorical__retailer_type_Department Store,0.003230485941778392
+categorical__city_Trujillo,0.0031957872321337773
+categorical__user_id_93,0.003137028688725391
+categorical__order_status_cancelled,0.003113733861765143
+categorical__city_Rosario,0.0030576966031618004
+categorical__month_name_Julio,0.0029920117825736627
+categorical__product_name_CoreFit Basketball Shoes v5,0.0029644033822743567
+categorical__month_name_Septiembre,0.002933121959824641
+categorical__user_id_55,0.002929210911830744
+categorical__city_Santiago,0.0029207196687514596
+categorical__year_month_2024-09,0.002894310393754366
+categorical__month_name_Junio,0.00276041023796287
+categorical__city_Bogotá,0.0027413292550922006
+categorical__year_month_2024-02,0.002721449343762271
+categorical__year_month_2024-06,0.002696554290606322
+categorical__year_month_2024-05,0.002613210006574736
+categorical__year_month_2024-11,0.0026092699108419175
+categorical__city_Monterrey,0.0025479619225153433
+categorical__product_name_UrbanSport Foam Roller v3,0.0025301580086404644
+categorical__year_month_2024-03,0.0024643426403834186
+categorical__product_id_10,0.0024452662660585174
+categorical__year_month_2024-08,0.00242684683824796
+categorical__sku_SR-FOO-0010,0.0023689269446974673
+categorical__month_name_Mayo,0.00234492893972109
+categorical__month_name_Febrero,0.002315580286639873
+categorical__user_id_57,0.0023112978685468004
+categorical__user_id_98,0.002252084564104242
+categorical__product_name_SportRetail Pro Resistance Bands v3,0.0022349965632740263
+categorical__product_id_93,0.00221547274941544
+categorical__sku_SR-EQU-0108,0.00217511696221062
+categorical__city_Córdoba,0.002133854375867841
+categorical__user_id_94,0.0020998067945618244
+categorical__city_Cali,0.002060129083701268
+categorical__user_id_99,0.002050010491636675
+categorical__city_Concepción,0.0020252647232577906
+categorical__product_name_UrbanSport Headband v4,0.0020085172166453497
+categorical__order_id_191,0.0019970181248634973
+categorical__sku_SR-ACC-0079,0.001989289809828772
+categorical__product_id_108,0.0019185606689753293
+categorical__year_month_2024-04,0.0018966447544992904
+categorical__sku_SR-EQU-0093,0.0018941043508087251
+categorical__month_name_Marzo,0.0018934669879459142
+categorical__product_id_79,0.0018342099532665285
+categorical__product_name_UrbanSport Agility Ladder v3,0.0018206655862580726
+categorical__city_Puebla,0.0017989439027337505
+categorical__user_id_34,0.0017961479873277821
+categorical__user_id_65,0.0017786182292960607
+categorical__product_id_83,0.0017414036960060233
+categorical__month_name_Abril,0.001697629191411531
+categorical__user_id_74,0.0016607408366891732
+categorical__product_id_17,0.001588837288748963
+categorical__product_id_109,0.0015665460207573484
+categorical__sku_SR-APP-0045,0.0015582456284772605
+categorical__product_name_SportRetail Pro Foam Roller v4,0.0015081602421289058
+categorical__user_id_2,0.0014818860585601166
+categorical__user_id_49,0.0014717519285276758
+categorical__city_Tijuana,0.001454209938810348
+categorical__order_id_167,0.0013963903767236123
+categorical__sku_SR-FOO-0028,0.0013818719797687588
+categorical__sku_SR-FOO-0017,0.001371602241234845
+categorical__sku_SR-EQU-0109,0.0013592600931121729
+categorical__order_id_101,0.0013313867524565872
+categorical__product_id_59,0.0013176013769804263
+categorical__user_id_28,0.001309052482433673
+categorical__sku_SR-EQU-0118,0.0013031256945563174
+categorical__product_name_PowerEdge Gym Bag v5,0.0012599936056153882
+categorical__product_name_SportRetail Pro Tennis Shoes v3,0.0012489093081029972
+categorical__city_Medellín,0.0012431242276197696
+categorical__sku_SR-EQU-0104,0.001217326564325056
+categorical__product_name_AthletX Slides v2,0.0012024211338203341
+categorical__sku_SR-ACC-0085,0.0011993461226003743
+categorical__product_id_88,0.001195234308526898
+categorical__sku_SR-ACC-0083,0.0011708776158399544
+categorical__product_id_85,0.0011594365487350407
+categorical__sku_SR-APP-0041,0.001149908328913831
+categorical__product_id_35,0.0011246334483853804
+categorical__city_Arequipa,0.0011242913109588246
+categorical__product_name_SpeedMax Gym Bag v3,0.0011002798648304677
+categorical__product_id_58,0.0010967052398050247
+categorical__product_id_45,0.00107799626981776
+categorical__sku_SR-ACC-0088,0.001075538073210292
+categorical__product_name_UrbanSport Sports Bra v4,0.0010584870322762928
+categorical__order_id_89,0.0010541076199232855
+categorical__user_id_77,0.0010501296460921645
+categorical__sku_SR-EQU-0100,0.0010327841188930579
+categorical__city_Cartagena,0.00103269240018003
+categorical__product_id_118,0.001010064995275951
+categorical__product_name_CoreFit Track Jacket v1,0.0009995012720602305
+categorical__user_id_35,0.0009785967186576334
+categorical__sku_SR-FOO-0020,0.0009688103929791453
+categorical__city_Valparaíso,0.0009491876002426102
+categorical__product_id_20,0.0009185411314221369
+categorical__product_id_41,0.0008696931106233342
+categorical__product_name_UrbanSport Yoga Mat v4,0.0008609072802738142
+categorical__order_id_65,0.0008608332543635609
+categorical__sku_SR-APP-0035,0.0008490236987540977
+categorical__product_id_40,0.0008315775645918632
+categorical__user_id_59,0.000827981528250601
+categorical__product_name_SportRetail Pro Slides v5,0.0008252289350778717
+categorical__user_id_30,0.0008228110588822987
+categorical__product_name_AthletX Performance T-Shirt v5,0.0008179960938361486
+categorical__user_id_32,0.000813320886520057
+categorical__user_id_81,0.000812601283766516
+categorical__product_name_CoreFit Track Jacket v5,0.0008030082936838529
+categorical__sku_SR-FOO-0006,0.0007970745109033793
+categorical__product_id_75,0.000796237040540532
+categorical__product_name_SportRetail Pro Sport Socks v3,0.0007900595665494612
+categorical__product_id_48,0.0007850750723335778
+categorical__product_id_64,0.000779237936877718
+categorical__sku_SR-ACC-0076,0.0007685302898573742
+categorical__user_id_24,0.0007604902593577121
+categorical__product_name_CoreFit Cap v5,0.0007540351141521507
+categorical__product_id_65,0.0007529638530189781
+categorical__user_id_95,0.000736172773630896
+categorical__sku_SR-ACC-0061,0.0007293609171033211
+categorical__order_id_75,0.0007275129719610176
+categorical__user_id_21,0.0007201054950399674
+categorical__sku_SR-ACC-0075,0.0007193984787756595
+categorical__product_name_PowerEdge Water Bottle v4,0.0007076168334646984
+categorical__product_id_104,0.000702579863917043
+categorical__product_name_PowerEdge Sport Backpack v4,0.0006948027172218523
+categorical__sku_SR-APP-0048,0.0006852930609256054
+categorical__product_id_100,0.0006757338416713038
+categorical__product_id_61,0.0006662182968778371
+categorical__user_id_51,0.000658118694617447
+categorical__user_id_15,0.0006556788653713598
+categorical__order_id_196,0.0006505685939806457
+categorical__product_name_SpeedMax Compression Tights v3,0.0006501090557418898
+categorical__sku_SR-FOO-0026,0.0006481408470329926
+categorical__product_name_PowerEdge Sport Backpack v5,0.00064091533036222
+categorical__order_id_53,0.0006248708980093016
+categorical__sku_SR-ACC-0067,0.000624524195150989
+categorical__sku_SR-APP-0049,0.0006201001691554819
+categorical__sku_SR-FOO-0014,0.000611686448264454
+categorical__order_id_7,0.0005955158193907801
+categorical__sku_SR-APP-0059,0.000579908697436277
+categorical__product_id_18,0.0005795332761440738
+categorical__user_id_43,0.0005700477979383488
+categorical__user_id_47,0.0005666478295529697
+categorical__user_id_40,0.0005641503364052492
+categorical__product_name_SpeedMax Sport Socks v4,0.0005618442705612227
+categorical__product_name_PowerEdge Jump Rope v5,0.00054724090635469
+categorical__product_name_AthletX Water Bottle v2,0.0005459643466651883
+categorical__order_id_80,0.0005454316858519061
+categorical__user_id_92,0.0005406008226179796
+categorical__sku_SR-FOO-0012,0.0005341338179436615
+categorical__sku_SR-FOO-0018,0.0005182572926419752
+categorical__order_id_151,0.0005083156391017821
+categorical__product_name_CoreFit Headband v1,0.000503129300570197
+categorical__product_name_SpeedMax Basketball Shoes v1,0.0004996651133873012
+categorical__product_name_PowerEdge Tennis Shoes v2,0.0004941311184796554
+categorical__sku_SR-EQU-0107,0.0004925093661932534
+categorical__sku_SR-FOO-0023,0.00048805580077474544
+categorical__product_name_CoreFit Slides v3,0.0004877037359238861
+categorical__sku_SR-FOO-0001,0.00048457298376858743
+categorical__product_id_29,0.0004818382815541529
+categorical__sku_SR-EQU-0095,0.00047706145873869073
+categorical__order_id_76,0.00047391481694741215
+categorical__user_id_18,0.00046904606865997455
+categorical__product_id_49,0.00046821558446414816
+categorical__user_id_60,0.00046638381437845157
+categorical__product_id_23,0.0004633711995777101
+categorical__product_id_74,0.0004612395080311679
+categorical__product_id_67,0.0004539713857324537
+categorical__product_name_SpeedMax Football Boots v3,0.00045307862072920674
+categorical__product_name_SpeedMax Training Gloves v4,0.0004528784108166189
+categorical__product_name_SpeedMax Tennis Shoes v1,0.000452850025373067
+categorical__order_id_6,0.00045281217535867964
+categorical__product_id_107,0.00044952777670167863
+categorical__sku_SR-ACC-0089,0.00044027194872578055
+categorical__product_name_PowerEdge Training Shorts v5,0.00043891524564167563
+categorical__sku_SR-FOO-0027,0.00043520830110609267
+categorical__sku_SR-APP-0058,0.0004303202884884265
+categorical__order_id_113,0.00042628709323828826
+categorical__user_id_42,0.00042507357724826805
+categorical__product_id_12,0.0004247518075893451
+categorical__sku_SR-APP-0034,0.0004239530827716652
+categorical__product_id_115,0.00042392442086904264
+categorical__product_name_AthletX Sport Backpack v1,0.0004194295601482704
+categorical__sku_SR-ACC-0069,0.00041763041430370186
+categorical__product_name_PowerEdge Training Gloves v5,0.00041544818280415556
+categorical__sku_SR-ACC-0074,0.00040679856329275786
+categorical__product_name_PowerEdge Performance T-Shirt v2,0.0004050563125853261
+categorical__sku_SR-ACC-0078,0.0004030527937109502
+categorical__product_name_SportRetail Pro Resistance Bands v5,0.00039973604461438097
+categorical__sku_SR-FOO-0024,0.00039118122412063453
+categorical__order_id_118,0.0003882014750473182
+categorical__product_name_AthletX Sports Bra v3,0.0003877452589612119
+categorical__sku_SR-APP-0047,0.00038458382054180743
+categorical__product_id_26,0.0003803830268684925
+categorical__product_name_UrbanSport Training Shoes v1,0.00038010102418635993
+categorical__sku_SR-APP-0050,0.00037683911302067703
+categorical__product_name_UrbanSport Cap v4,0.0003694273812825543
+categorical__sku_SR-ACC-0065,0.000364556953999696
+categorical__product_id_34,0.0003625874793922782
+categorical__sku_SR-FOO-0008,0.00035912609267606336
+categorical__sku_SR-EQU-0097,0.0003575403077228134
+categorical__product_id_6,0.00035728061426300534
+categorical__product_id_114,0.00035703112523454805
+categorical__product_id_14,0.000356709289468068
+categorical__product_name_UrbanSport Football Jersey v2,0.0003516814222875896
+categorical__product_name_SportRetail Pro Football Boots v4,0.0003509634643718973
+categorical__user_id_12,0.00034861151928774684
+categorical__order_id_78,0.00034115250036164876
+categorical__user_id_22,0.00034106188193500564
+categorical__user_id_38,0.0003362523294495257
+categorical__order_id_131,0.00033338542387975525
+categorical__product_id_28,0.0003329910189001267
+categorical__user_id_64,0.00032736006814817716
+categorical__order_id_45,0.0003152438960527429
+categorical__product_id_95,0.0003140791180862719
+categorical__order_id_122,0.00031211327587150726
+categorical__sku_SR-ACC-0064,0.0003085519434442569
+categorical__product_name_SportRetail Pro Basketball Shoes v2,0.0003081889520962606
+categorical__sku_SR-APP-0053,0.0003081687601655764
+categorical__product_id_76,0.00030247051516118833
+categorical__sku_SR-APP-0032,0.0003014369171974866
+categorical__user_id_85,0.00029947676747035297
+categorical__product_id_32,0.00029793609622354286
+categorical__product_name_SportRetail Pro Training Shorts v4,0.00029750123479554654
+categorical__product_name_SportRetail Pro Performance T-Shirt v1,0.000297298429132986
+categorical__product_name_SpeedMax Training Shoes v4,0.0002930650281594838
+categorical__sku_SR-ACC-0082,0.00029154341093133324
+categorical__product_name_CoreFit Foam Roller v2,0.0002904250897927042
+categorical__user_id_83,0.0002900021584517708
+categorical__product_name_UrbanSport Jump Rope v2,0.00028698823791207194
+categorical__user_id_39,0.0002867540129274903
+categorical__product_id_24,0.00028252322665902257
+categorical__user_id_97,0.00028137008826617906
+categorical__order_id_173,0.0002805490769540228
+categorical__order_id_48,0.0002803248657037711
+categorical__product_name_UrbanSport Performance T-Shirt v4,0.00027694147988772185
+categorical__sku_SR-APP-0040,0.0002747365321470869
+categorical__product_id_27,0.0002746282637360648
+categorical__product_name_AthletX Compression Tights v4,0.0002713427666670858
+categorical__sku_SR-APP-0046,0.00027127303127459233
+categorical__sku_SR-APP-0052,0.0002709482815050623
+categorical__product_name_PowerEdge Running Shoes v1,0.00027067515885234063
+categorical__sku_SR-FOO-0029,0.00027002762710921427
+categorical__sku_SR-EQU-0114,0.00026715147119199827
+categorical__product_id_52,0.00026325866854379416
+categorical__product_id_89,0.00025560816977808135
+categorical__product_id_47,0.0002549341848984992
+categorical__order_id_56,0.00025480476258815015
+categorical__user_id_6,0.0002542228858087006
+categorical__product_id_8,0.00025408639078101805
+categorical__product_name_SportRetail Pro Compression Tights v1,0.0002536606889194127
+categorical__order_id_181,0.00024874281006143897
+categorical__order_id_28,0.0002455028765192471
+categorical__product_name_CoreFit Resistance Bands v1,0.0002451367318471842
+categorical__sku_SR-FOO-0011,0.0002438696311970564
+categorical__order_id_26,0.00024328745541015156
+categorical__product_id_66,0.0002407062407065872
+categorical__product_name_UrbanSport Gym Bag v2,0.00024006695687235722
+categorical__sku_SR-APP-0031,0.00023900394164751447
+categorical__user_id_5,0.00023736477842471455
+categorical__product_name_SportRetail Pro Tennis Shoes v4,0.00023683093941387047
+categorical__product_id_50,0.00023493698912963049
+categorical__product_id_91,0.0002338603108645629
+categorical__product_id_39,0.00022904898567787705
+categorical__product_name_SportRetail Pro Slides v4,0.00022598305890484974
+categorical__order_id_161,0.00022251967405015433
+categorical__product_name_SpeedMax Compression Tights v2,0.00022230869122137482
+categorical__sku_SR-ACC-0084,0.0002210018516495045
+categorical__user_id_50,0.0002136574592901437
+categorical__product_name_PowerEdge Football Boots v5,0.00021339328955944048
+categorical__product_name_CoreFit Slides v1,0.00020943588321047855
+categorical__product_id_11,0.00020385222542945069
+categorical__product_id_53,0.00020354019777570477
+categorical__user_id_31,0.00020091265704910764
+categorical__order_id_162,0.00020022018491998823
+categorical__order_id_169,0.00019927219391303598
+categorical__product_id_84,0.00019435588602398495
+categorical__product_id_77,0.00018924663843688592
+categorical__sku_SR-ACC-0062,0.0001776212202542327
+categorical__product_name_SportRetail Pro Training Shoes v5,0.00017098232603534054
+categorical__product_id_15,0.00016862975332270044
+categorical__order_id_94,0.00016554651893472235
+categorical__city_Buenos Aires,0.00016458387077190238
+categorical__product_name_AthletX Training Shoes v2,0.0001633066562221865
+categorical__product_name_PowerEdge Water Bottle v3,0.00016300775584693523
+categorical__product_id_97,0.00016087756360872618
+categorical__user_id_54,0.0001596671886816793
+categorical__user_id_17,0.00015761648071633153
+categorical__order_id_84,0.00015642893314024732
+categorical__product_id_94,0.0001551411422032686
+categorical__product_id_31,0.00015510279068002268
+categorical__product_id_7,0.00015284619060580124
+categorical__product_name_SportRetail Pro Sport Backpack v2,0.0001498905698415037
+categorical__order_id_104,0.00014802676160605624
+categorical__product_id_78,0.000147945617822573
+categorical__sku_SR-EQU-0115,0.00014782449489618885
+categorical__user_id_25,0.00014611671870584897
+categorical__sku_SR-FOO-0007,0.00014460342237276785
+categorical__order_id_190,0.0001434449082589619
+categorical__product_name_SpeedMax Water Bottle v5,0.0001425866266642782
+categorical__city_Guadalajara,0.000142356133267808
+categorical__order_id_13,0.00014125211483204212
+categorical__product_id_62,0.00014102680183820227
+categorical__product_name_SportRetail Pro Running Shoes v5,0.00014018020544471634
+categorical__product_name_UrbanSport Foam Roller v5,0.00013749881829747823
+categorical__user_id_58,0.00013640528663945637
+categorical__product_name_SportRetail Pro Jump Rope v1,0.0001352401000431542
+categorical__sku_SR-ACC-0072,0.00013197087331667947
+categorical__product_id_22,0.0001317684182901001
+categorical__sku_SR-FOO-0015,0.0001303175453429407
+categorical__user_id_1,0.00012360326569612302
+categorical__order_id_38,0.00012350541602761542
+categorical__product_name_PowerEdge Gym Bag v4,0.0001233232289693357
+categorical__sku_SR-ACC-0068,0.00012319252593690473
+categorical__sku_SR-APP-0039,0.00012316791500896064
+categorical__sku_SR-ACC-0070,0.00011946510648466337
+categorical__sku_SR-EQU-0096,0.00011910094213241121
+categorical__product_name_SportRetail Pro Football Jersey v3,0.00011870230938641542
+categorical__product_id_46,0.00011849548904104973
+categorical__order_id_36,0.00011810027001346338
+categorical__order_id_42,0.0001173591963005757
+categorical__product_id_99,0.00011676720926344606
+categorical__order_id_159,0.00011563870306379659
+categorical__sku_SR-FOO-0013,0.00011542561074327517
+categorical__user_id_96,0.00011388869607149084
+categorical__order_id_31,0.00011336217506954828
+categorical__sku_SR-FOO-0005,0.00011332671216666289
+categorical__product_id_71,0.00011211400728290776
+categorical__product_name_SpeedMax Agility Ladder v1,0.00011170610200761067
+categorical__product_id_25,0.00011145077979338863
+categorical__product_id_69,0.00011017037344450614
+categorical__order_id_116,0.00010808805775923061
+categorical__order_id_86,0.00010794205238694411
+categorical__product_id_102,0.0001076243668774164
+categorical__order_id_111,0.00010709460235604689
+categorical__user_id_61,0.00010664354039031502
+categorical__product_name_UrbanSport Water Bottle v1,0.00010576982589638573
+categorical__product_name_AthletX Training Shoes v3,0.0001049140413326313
+categorical__order_id_14,0.00010364886417268616
+categorical__product_name_UrbanSport Agility Ladder v4,0.00010351057427164727
+categorical__product_name_PowerEdge Track Jacket v4,9.956803401076238e-05
+categorical__sku_SR-FOO-0004,9.850306182480327e-05
+categorical__product_id_1,9.595031015570101e-05
+categorical__order_id_199,9.514311392353644e-05
+categorical__product_id_16,9.449993913267868e-05
+categorical__sku_SR-APP-0038,9.355949655205574e-05
+categorical__sku_SR-ACC-0071,9.340297938499424e-05
+categorical__product_name_AthletX Running Shoes v4,9.152517345167185e-05
+categorical__product_id_106,8.764390622059595e-05
+categorical__product_id_119,8.61024894152215e-05
+categorical__sku_SR-ACC-0077,8.58554807291612e-05
+categorical__sku_SR-ACC-0081,8.578286697661589e-05
+categorical__product_id_9,8.52298307728969e-05
+categorical__product_name_UrbanSport Training Shorts v3,8.470178586091535e-05
+categorical__order_id_44,8.438188059563022e-05
+categorical__order_id_178,8.310849995539386e-05
+categorical__sku_SR-FOO-0025,8.152537312160538e-05
+categorical__product_name_PowerEdge Headband v2,8.073348464955492e-05
+categorical__order_id_58,7.905876728462878e-05
+categorical__order_id_129,7.726120889869116e-05
+categorical__order_id_50,7.574737236628268e-05
+categorical__product_id_72,7.402680467686964e-05
+categorical__order_id_166,7.37753134366578e-05
+categorical__order_id_25,7.24292418296267e-05
+categorical__order_id_155,7.110156706303492e-05
+categorical__product_id_82,6.977326150865057e-05
+categorical__product_id_5,6.908506055104064e-05
+categorical__sku_SR-EQU-0091,6.829255849370968e-05
+categorical__sku_SR-FOO-0022,6.801137811461717e-05
+categorical__product_name_SpeedMax Headband v3,6.770570115405611e-05
+categorical__sku_SR-ACC-0066,6.692705860555844e-05
+categorical__product_id_19,6.678233332938688e-05
+categorical__order_id_109,6.662853856248717e-05
+categorical__user_id_48,6.61913972218745e-05
+categorical__product_name_UrbanSport Yoga Mat v5,6.566901147124363e-05
+categorical__product_id_103,6.543944866495937e-05
+categorical__product_id_70,6.512554842730228e-05
+categorical__product_name_SportRetail Pro Resistance Bands v4,6.43031334411415e-05
+categorical__product_id_38,6.374734453456124e-05
+categorical__product_name_AthletX Basketball Shoes v4,6.274185937348209e-05
+categorical__order_id_125,6.245858887000155e-05
+categorical__product_name_CoreFit Jump Rope v4,6.0126498907967856e-05
+categorical__user_id_11,5.937166298551657e-05
+categorical__product_id_73,5.845718859979008e-05
+categorical__order_id_15,5.794749576701371e-05
+categorical__product_id_68,5.6659693148341276e-05
+categorical__user_id_26,5.627918964208825e-05
+categorical__order_id_19,5.607914158776723e-05
+categorical__order_id_88,5.44597206684385e-05
+categorical__order_id_8,5.4193385667953026e-05
+categorical__user_id_86,5.414715236990231e-05
+categorical__product_name_CoreFit Yoga Mat v2,4.7611983114333074e-05
+categorical__order_id_29,4.558808691211322e-05
+categorical__sku_SR-APP-0057,4.5384555597884666e-05
+categorical__sku_SR-FOO-0016,4.519326582400183e-05
+categorical__sku_SR-EQU-0117,4.4364275358893806e-05
+categorical__sku_SR-EQU-0119,4.174723270387894e-05
+categorical__order_id_95,4.166634972027907e-05
+categorical__sku_SR-FOO-0019,4.144120784128282e-05
+categorical__order_id_5,4.119316205878952e-05
+categorical__product_id_105,4.1064071204993214e-05
+categorical__order_id_197,4.054925669999639e-05
+categorical__product_id_116,3.987495739378858e-05
+categorical__order_id_39,3.974385114769698e-05
+categorical__sku_SR-EQU-0094,3.858658618075524e-05
+categorical__product_name_SpeedMax Compression Tights v5,3.839884599632015e-05
+categorical__user_id_79,3.8094378109771816e-05
+categorical__user_id_8,3.627207087977251e-05
+categorical__order_id_40,3.607929786682081e-05
+categorical__order_id_91,3.587869957502434e-05
+categorical__sku_SR-APP-0051,3.5402933790447165e-05
+categorical__order_id_90,3.405944522857764e-05
+categorical__order_id_47,3.368778586508792e-05
+categorical__order_id_156,3.3241851921072074e-05
+categorical__order_id_168,3.060767013070212e-05
+categorical__product_name_CoreFit Basketball Shoes v3,3.0032603452523343e-05
+categorical__sku_SR-EQU-0099,2.9824310671122655e-05
+categorical__user_id_89,2.9139103487550296e-05
+categorical__order_id_11,2.9109682527361562e-05
+categorical__sku_SR-EQU-0116,2.8630109078318384e-05
+categorical__order_id_137,2.621385412071711e-05
+categorical__order_id_127,2.2525138863374784e-05
+categorical__sku_SR-EQU-0110,2.0512368726453856e-05
+categorical__product_id_13,1.815880882517923e-05
+categorical__order_id_22,1.7098942258278162e-05
+categorical__product_id_51,1.404282588096189e-05
+categorical__order_id_163,1.3900723506643391e-05
+categorical__product_name_CoreFit Cap v1,1.3723818160683729e-05
+categorical__order_id_71,1.2393845635790153e-05
+categorical__user_id_41,1.2300671865740312e-05
+categorical__product_name_PowerEdge Gym Bag v1,1.1303504037756638e-05
+categorical__user_id_36,1.1276790628037794e-05
+categorical__product_id_44,1.1100037999265524e-05
+categorical__order_id_23,1.0935736525834248e-05
+categorical__sku_SR-EQU-0102,1.0868463987294976e-05
+categorical__order_id_194,9.718064938393815e-06
+categorical__user_id_63,9.651103558159292e-06
+categorical__sku_SR-APP-0044,8.75979750512037e-06
+categorical__order_id_62,8.490887953699921e-06
+categorical__sku_SR-EQU-0105,8.184161707312478e-06
+categorical__order_id_3,7.86730238006937e-06
+categorical__order_id_189,7.527345543398009e-06
+categorical__order_id_177,6.883002343261568e-06
+categorical__user_id_19,6.569577082546677e-06
+categorical__product_name_PowerEdge Training Shorts v1,5.606149891588506e-06
+categorical__product_name_SpeedMax Agility Ladder v2,4.112090029207403e-06
+categorical__product_id_81,3.441337844035849e-06
+categorical__order_id_119,2.449348088714931e-06
+categorical__product_name_PowerEdge Football Boots v2,1.0497139062624755e-06
+categorical__order_id_144,9.927830796702667e-07
+categorical__product_name_CoreFit Sports Bra v2,9.439264018161634e-07
+categorical__product_id_57,8.009659866877863e-07
+categorical__sku_SR-FOO-0009,5.00813861165619e-07
+categorical__order_id_9,2.748548095945093e-07
+categorical__sku_SR-APP-0054,0.0
+categorical__sku_SR-APP-0055,0.0
+categorical__sku_SR-APP-0037,0.0
+categorical__sku_SR-APP-0036,0.0
+numeric__year,0.0
+categorical__sku_SR-APP-0056,0.0
+categorical__sku_SR-APP-0043,0.0
+numeric__price_difference,0.0
+categorical__sku_SR-FOO-0003,0.0
+categorical__sku_SR-APP-0060,0.0
+categorical__sku_SR-EQU-0106,0.0
+categorical__sku_SR-ACC-0080,0.0
+categorical__sku_SR-EQU-0120,0.0
+categorical__sku_SR-APP-0042,0.0
+categorical__sku_SR-EQU-0113,0.0
+categorical__sku_SR-FOO-0021,0.0
+categorical__sku_SR-ACC-0086,0.0
+categorical__sku_SR-EQU-0111,0.0
+categorical__sku_SR-FOO-0030,0.0
+categorical__sku_SR-APP-0033,0.0
+categorical__sku_SR-ACC-0087,0.0
+categorical__sku_SR-EQU-0103,0.0
+categorical__sku_SR-EQU-0101,0.0
+categorical__sku_SR-ACC-0073,0.0
+categorical__sku_SR-FOO-0002,0.0
+categorical__sku_SR-ACC-0090,0.0
+categorical__sku_SR-EQU-0092,0.0
+categorical__sku_SR-EQU-0098,0.0
+categorical__order_id_1,0.0
+categorical__sku_SR-ACC-0063,0.0
+categorical__order_id_68,0.0
+categorical__order_id_21,0.0
+categorical__order_id_200,0.0
+categorical__order_id_20,0.0
+categorical__order_id_2,0.0
+categorical__order_id_198,0.0
+categorical__order_id_195,0.0
+categorical__order_id_193,0.0
+categorical__order_id_192,0.0
+categorical__order_id_188,0.0
+categorical__order_id_187,0.0
+categorical__order_id_186,0.0
+categorical__order_id_185,0.0
+categorical__order_id_184,0.0
+categorical__order_id_183,0.0
+categorical__order_id_182,0.0
+categorical__order_id_180,0.0
+categorical__order_id_18,0.0
+categorical__order_id_179,0.0
+categorical__order_id_176,0.0
+categorical__order_id_175,0.0
+categorical__order_id_174,0.0
+categorical__order_id_24,0.0
+categorical__order_id_27,0.0
+categorical__order_id_30,0.0
+categorical__order_id_52,0.0
+categorical__order_id_66,0.0
+categorical__order_id_64,0.0
+categorical__order_id_63,0.0
+categorical__order_id_61,0.0
+categorical__order_id_60,0.0
+categorical__order_id_59,0.0
+categorical__order_id_57,0.0
+categorical__order_id_55,0.0
+categorical__order_id_54,0.0
+categorical__order_id_51,0.0
+categorical__order_id_32,0.0
+categorical__order_id_49,0.0
+categorical__order_id_46,0.0
+categorical__order_id_43,0.0
+categorical__order_id_41,0.0
+categorical__order_id_4,0.0
+categorical__order_id_37,0.0
+categorical__order_id_35,0.0
+categorical__order_id_34,0.0
+categorical__order_id_33,0.0
+categorical__order_id_172,0.0
+categorical__order_id_171,0.0
+categorical__order_id_170,0.0
+categorical__order_id_115,0.0
+categorical__order_id_133,0.0
+categorical__order_id_132,0.0
+categorical__order_id_130,0.0
+categorical__order_id_128,0.0
+categorical__order_id_124,0.0
+categorical__order_id_123,0.0
+categorical__order_id_121,0.0
+categorical__order_id_12,0.0
+categorical__order_id_117,0.0
+categorical__order_id_114,0.0
+categorical__order_id_135,0.0
+categorical__order_id_112,0.0
+categorical__order_id_110,0.0
+categorical__order_id_108,0.0
+categorical__order_id_107,0.0
+categorical__order_id_106,0.0
+categorical__order_id_105,0.0
+categorical__order_id_103,0.0
+categorical__order_id_102,0.0
+categorical__order_id_100,0.0
+categorical__order_id_134,0.0
+categorical__order_id_136,0.0
+categorical__order_id_17,0.0
+categorical__order_id_150,0.0
+categorical__order_id_165,0.0
+categorical__order_id_164,0.0
+categorical__order_id_160,0.0
+categorical__order_id_16,0.0
+categorical__order_id_158,0.0
+categorical__order_id_157,0.0
+categorical__order_id_154,0.0
+categorical__order_id_153,0.0
+categorical__order_id_152,0.0
+categorical__order_id_149,0.0
+categorical__order_id_138,0.0
+categorical__order_id_148,0.0
+categorical__order_id_147,0.0
+categorical__order_id_146,0.0
+categorical__order_id_145,0.0
+categorical__order_id_143,0.0
+categorical__order_id_142,0.0
+categorical__order_id_141,0.0
+categorical__order_id_140,0.0
+categorical__order_id_139,0.0
+categorical__order_id_67,0.0
+categorical__order_id_69,0.0
+categorical__product_name_UrbanSport Running Shoes v2,0.0
+categorical__order_id_70,0.0
+categorical__product_name_AthletX Sport Backpack v3,0.0
+categorical__product_name_AthletX Running Shoes v3,0.0
+categorical__product_name_AthletX Resistance Bands v2,0.0
+categorical__product_id_98,0.0
+categorical__product_id_96,0.0
+categorical__product_id_92,0.0
+categorical__product_id_90,0.0
+categorical__product_id_87,0.0
+categorical__product_id_86,0.0
+categorical__product_id_80,0.0
+categorical__order_id_10,0.0
+categorical__product_id_63,0.0
+categorical__product_id_60,0.0
+categorical__product_id_56,0.0
+categorical__product_id_55,0.0
+categorical__product_id_54,0.0
+categorical__product_id_43,0.0
+categorical__product_id_42,0.0
+categorical__product_id_4,0.0
+categorical__product_id_37,0.0
+categorical__product_id_36,0.0
+categorical__product_name_AthletX Track Jacket v2,0.0
+categorical__product_name_CoreFit Football Jersey v1,0.0
+categorical__product_name_CoreFit Headband v5,0.0
+categorical__product_name_SpeedMax Sport Socks v5,0.0
+categorical__product_name_UrbanSport Performance T-Shirt v3,0.0
+categorical__product_name_UrbanSport Jump Rope v3,0.0
+categorical__product_name_UrbanSport Cap v2,0.0
+categorical__product_name_SportRetail Pro Training Gloves v3,0.0
+categorical__product_name_SportRetail Pro Training Gloves v1,0.0
+categorical__product_name_SportRetail Pro Tennis Shoes v5,0.0
+categorical__product_name_SportRetail Pro Foam Roller v1,0.0
+categorical__product_name_SpeedMax Yoga Mat v1,0.0
+categorical__product_name_SpeedMax Training Shorts v2,0.0
+categorical__product_name_SpeedMax Sport Socks v1,0.0
+categorical__product_name_CoreFit Sport Socks v2,0.0
+categorical__product_name_SpeedMax Football Jersey v4,0.0
+categorical__product_name_SpeedMax Football Boots v1,0.0
+categorical__product_name_SpeedMax Cap v3,0.0
+categorical__product_name_SpeedMax Agility Ladder v5,0.0
+categorical__product_name_PowerEdge Yoga Mat v3,0.0
+categorical__product_name_PowerEdge Sports Bra v5,0.0
+categorical__product_name_PowerEdge Football Jersey v5,0.0
+categorical__product_name_CoreFit Track Jacket v3,0.0
+categorical__product_name_CoreFit Sports Bra v1,0.0
+categorical__product_id_33,0.0
+categorical__product_id_30,0.0
+categorical__product_id_3,0.0
+categorical__order_id_92,0.0
+categorical__user_id_29,0.0
+categorical__user_id_16,0.0
+categorical__user_id_13,0.0
+categorical__user_id_10,0.0
+categorical__order_id_99,0.0
+categorical__order_id_98,0.0
+categorical__order_id_97,0.0
+categorical__order_id_96,0.0
+categorical__order_id_93,0.0
+categorical__order_id_87,0.0
+categorical__user_id_37,0.0
+categorical__order_id_85,0.0
+categorical__order_id_83,0.0
+categorical__order_id_82,0.0
+categorical__order_id_81,0.0
+categorical__order_id_79,0.0
+categorical__order_id_77,0.0
+categorical__order_id_74,0.0
+categorical__order_id_73,0.0
+categorical__order_id_72,0.0
+categorical__user_id_3,0.0
+categorical__user_id_44,0.0
+categorical__product_id_21,0.0
+categorical__user_id_88,0.0
+categorical__product_id_2,0.0
+categorical__product_id_120,0.0
+categorical__product_id_117,0.0
+categorical__product_id_113,0.0
+categorical__product_id_111,0.0
+categorical__product_id_110,0.0
+categorical__product_id_101,0.0
+categorical__user_id_90,0.0
+categorical__user_id_9,0.0
+categorical__user_id_78,0.0
+categorical__user_id_45,0.0
+categorical__user_id_72,0.0
+categorical__user_id_71,0.0
+categorical__user_id_70,0.0
+categorical__user_id_7,0.0
+categorical__user_id_69,0.0
+categorical__user_id_68,0.0
+categorical__user_id_56,0.0
+categorical__user_id_52,0.0
+categorical__user_id_46,0.0
+numeric__price_difference_pct,0.0

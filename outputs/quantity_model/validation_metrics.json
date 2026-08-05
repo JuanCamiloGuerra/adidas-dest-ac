@@ -1,0 +1,24 @@
+{
+  "model": "RandomForestRegressor",
+  "status": "experimental",
+  "target": "quantity",
+  "known_rows": 721,
+  "missing_rows": 12,
+  "train_rows": 578,
+  "validation_rows": 143,
+  "mae": 29.582080018496598,
+  "rmse": 34.386467381280646,
+  "r2": -0.00931525928267396,
+  "baseline_median": 63.5,
+  "baseline_mae": 29.8986013986014,
+  "baseline_rmse": 34.22812710790185,
+  "random_state": 42,
+  "grouped_split": "order_id",
+  "leakage_columns_excluded": [
+    "quantity",
+    "revenue",
+    "valid_sales_flag",
+    "data_quality_flag"
+  ],
+  "recommended_use": "scenario_only"
+}

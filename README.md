@@ -23,10 +23,11 @@ Solución integral para analizar el desempeño de un distribuidor mayorista fict
 | Ingresos | USD 4.174.258,92 |
 | Unidades | 45.414 |
 | Clientes compradores | 85 |
-| Visualizaciones | 12 |
-| Modelo | Clustering jerárquico, 2 segmentos |
+| Visualizaciones | 15 en tres vistas interactivas |
+| Modelo oficial | Clustering jerárquico, 2 segmentos |
 | Silhouette | 0,310 |
-| Pruebas | 7 aprobadas |
+| Modelo experimental | Random Forest para `quantity` nula; uso solo como escenario |
+| Pruebas | 9 definidas |
 
 Los resultados no se inventaron: se materializan en `data/quality/persistence_validation.json`, `outputs/reports/business_summary.json` y `outputs/model/metrics.json`.
 
@@ -61,14 +62,15 @@ adidas-dest-ac/
 ├── api/                 # generador y servidor reproducibles
 ├── config/              # rutas relativas y parámetros
 ├── src/                 # cliente, ETL, calidad, BI, ML y HTML
-├── scripts/             # run_etl, build_dashboard, run_model, run_all
-├── notebooks/           # 3 notebooks ejecutados
+├── scripts/             # ETL, dashboard, modelos y orquestación
+├── notebooks/           # notebooks técnicos y guía integral ejecutada
 ├── data/
 │   ├── raw/             # respuestas HTTP locales, no versionadas
 │   ├── processed/       # CSV, Parquet y SQLite
 │   └── quality/         # reglas y reconciliación
 ├── docs/                 # GitHub Pages, resumen y metodología
 ├── outputs/model/        # features, comparaciones, perfiles y artefacto
+├── outputs/quantity_model/ # predicciones y sensibilidad de quantity nula
 └── tests/                # pruebas unitarias sin red
 ```
 
@@ -116,9 +118,13 @@ Desde la raíz del repositorio y con la API activa:
 ```powershell
 python scripts/run_etl.py
 python scripts/run_model.py
+python scripts/run_quantity_model.py
 python scripts/build_dashboard.py
 python scripts/build_notebooks.py
 ```
+
+La guía principal para estudiar y sustentar el proyecto es
+[`notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb`](notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb). Parte de la tabla consolidada y explica calidad, escenarios, análisis comercial, inferencia, modelos, conclusiones y límites hasta antes del dashboard.
 
 Ejecución completa:
 
@@ -149,6 +155,10 @@ La opción principal es segmentación de clientes. Predecir revenue antes de con
 
 El modelo elegido es jerárquico con dos segmentos: 72 socios estratégicos (84,7%) y 13 clientes de reactivación prioritaria (15,3%). Silhouette 0,310 indica separación moderada. La PCA explica 50,9% en dos ejes y no se presenta como prueba de separación perfecta. Detalles en [model_report.md](docs/model_report.md).
 
+### Escenario experimental de cantidades faltantes
+
+El proyecto también formaliza un Random Forest para estimar las 12 líneas con `quantity` nula. Se entrena solo con cantidades conocidas, excluye `revenue` para impedir fuga y separa entrenamiento y validación por `order_id`. Su R² es -0,009 y su RMSE (34,39) no supera la mediana (34,23); por ello se conserva como análisis de sensibilidad, nunca como imputación certificada. La tabla maestra permanece intacta. Detalles en [missing_quantity_report.md](docs/missing_quantity_report.md).
+
 ## Documentación y outputs
 
 - `docs/index.html`: dashboard y entrada de Pages.
@@ -156,8 +166,10 @@ El modelo elegido es jerárquico con dos segmentos: 72 socios estratégicos (84,
 - `docs/methodology.md`: arquitectura, ETL, calidad, visualización y ML.
 - `docs/data_dictionary.md`: variable, tipo, fuente, regla, valores, nulos y uso.
 - `docs/model_report.md`: selección, resultados y limitaciones.
+- `docs/missing_quantity_report.md`: diseño, validación y límites del Random Forest experimental.
 - `data/processed/orders_enriched.*`: CSV, Parquet y SQLite.
 - `outputs/model/`: features, comparación, segmentos, PCA y modelo.
+- `outputs/quantity_model/`: métricas, predicciones, importancia, escenarios y modelo experimental.
 
 ## GitHub Pages
 

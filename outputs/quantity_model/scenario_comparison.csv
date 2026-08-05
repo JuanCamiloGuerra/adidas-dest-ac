@@ -1,0 +1,5 @@
+scenario,revenue_total,difference_vs_original,change_vs_original_pct
+Original conocido,4174258.92,0.0,0.0
+Mínimo mayorista,4179686.2199999997,5427.299999999814,0.13001828837200674
+Random Forest experimental,4242768.18,68509.25999999978,1.6412316847848953
+Máximo jerárquico,4268800.58,94541.66000000015,2.264872922640844
