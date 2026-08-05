@@ -32,6 +32,8 @@ El dashboard embebe Plotly, datos y JavaScript. Sus seis filtros operan en el na
 
 Se seleccionó segmentación de clientes. Predecir revenue antes de confirmación no es defendible con las variables disponibles: `quantity` y `unit_price` reconstruyen el objetivo, y excluirlas elimina información esencial. Se agregan variables RFM ampliadas, amplitud/concentración de categorías y preferencias; se imputan medianas/modas, se aplica `log1p`, estandarización y one-hot. Se comparan K-Means, jerárquico y Gaussian Mixture entre 2 y 6 grupos. La selección prioriza silhouette y evita segmentos menores al 8% cuando es posible. PCA es solo una proyección descriptiva.
 
+Como componente complementario se formalizó un Random Forest para `quantity` nula. Los identificadores se tratan como categorías, las demás variables categóricas usan one-hot y los predictores numéricos se imputan con mediana. `revenue` se excluye explícitamente y la validación agrupa por pedido. Debido a que R² es negativo y el RMSE no mejora la mediana, el resultado se guarda únicamente como escenario experimental y no modifica `orders_enriched`.
+
 ## Pruebas
 
 Pytest valida paginación completa, normalización, revenue, fronteras de segmento, joins, columnas, calidad, SQLite, HTML, reproducibilidad y ausencia de infinitos. Las respuestas HTTP se simulan para no depender permanentemente de la API.
@@ -39,4 +41,3 @@ Pytest valida paginación completa, normalización, revenue, fronteras de segmen
 ## Limitaciones
 
 Los datos son sintéticos y cubren 2024; no incluyen costo, margen, devoluciones, metas ni causalidad comercial. Los segmentos deben validarse fuera de muestra y revisarse con cada nuevo periodo.
-

@@ -14,3 +14,4 @@ pytest==8.3.4
 fastapi==0.115.6
 uvicorn==0.32.1
 Faker==33.1.0
+Jinja2==3.1.5
