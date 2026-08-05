@@ -126,6 +126,8 @@ python scripts/build_notebooks.py
 La guía principal para estudiar y sustentar el proyecto es
 [`notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb`](notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb). Parte de la tabla consolidada y explica calidad, escenarios, análisis comercial, inferencia, modelos, conclusiones y límites hasta antes del dashboard.
 
+**Dashboard de la guía, sin ejecutar código:** [abrir SportRetail LAM en GitHub Pages](https://juancamiloguerra.github.io/adidas-dest-ac/).
+
 Ejecución completa:
 
 ```powershell
