@@ -2,7 +2,13 @@
 
 Solución integral para analizar el desempeño de un distribuidor mayorista ficticio de artículos deportivos en Colombia, México, Argentina, Chile y Perú. Incluye extracción REST paginada, calidad, tabla analítica, dashboard HTML autónomo, resumen ejecutivo, segmentación de clientes, notebooks y pruebas.
 
-[Abrir dashboard publicado](https://juancamiloguerra.github.io/adidas-dest-ac/) · [Resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html)
+[Fase 1: de la API a la tabla maestra](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html) · [Abrir dashboard](https://juancamiloguerra.github.io/adidas-dest-ac/) · [Resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html)
+
+## Recorrido recomendado para entender el proyecto
+
+1. **Fase 1 — API y tabla maestra:** guía HTML visual sobre la API suministrada, el cliente HTTP construido, los ajustes de reproducibilidad, la paginación, la granularidad y los joins hasta obtener `orders_enriched`. [Abrir sin ejecutar código](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html).
+2. **Fase 2 — Análisis reproducible:** [`notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb`](notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb) explica calidad, nulos, outliers, estadística, escenarios y modelos desde la tabla consolidada.
+3. **Fase 3 — Comunicación ejecutiva:** [dashboard interactivo](https://juancamiloguerra.github.io/adidas-dest-ac/) y [resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html).
 
 ## Preguntas de negocio
 
@@ -117,6 +123,7 @@ Desde la raíz del repositorio y con la API activa:
 
 ```powershell
 python scripts/run_etl.py
+python scripts/build_api_guide.py
 python scripts/run_model.py
 python scripts/run_quantity_model.py
 python scripts/build_dashboard.py
@@ -164,6 +171,7 @@ El proyecto también formaliza un Random Forest para estimar las 12 líneas con 
 ## Documentación y outputs
 
 - `docs/index.html`: dashboard y entrada de Pages.
+- `docs/fase-1-api-tabla-maestra.html`: guía visual desde la API hasta `orders_enriched`.
 - `docs/executive_summary.html|md`: resumen de una página.
 - `docs/methodology.md`: arquitectura, ETL, calidad, visualización y ML.
 - `docs/data_dictionary.md`: variable, tipo, fuente, regla, valores, nulos y uso.
