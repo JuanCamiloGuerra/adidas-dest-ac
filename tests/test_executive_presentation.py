@@ -31,5 +31,8 @@ def test_executive_presentation_distinguishes_demand_from_delivered(tmp_path) ->
     assert ".card.signal{background:var(--signal);color:#000" in content
     assert "table{border-collapse:collapse;width:100%;background:#fff;color:#111" in content
     assert "scroll-snap-type:y proximity" in content
+    assert "#s07 table tbody td,#s07 table tbody td b{color:#242424!important}" in content
+    assert ".portfolio-kpis .card,.portfolio-kpis .card .label" in content
+    assert 'class="grid portfolio-kpis"' in content
     assert 'class="statement closing-statement"' in content
     assert "__[A-Z" not in content
