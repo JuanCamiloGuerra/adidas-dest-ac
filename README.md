@@ -2,7 +2,7 @@
 
 Solución integral para analizar el desempeño de un distribuidor mayorista ficticio de artículos deportivos en Colombia, México, Argentina, Chile y Perú. Incluye extracción REST paginada, calidad, tabla analítica, dashboard HTML autónomo, resumen ejecutivo, segmentación de clientes, notebooks y pruebas.
 
-[Presentación ejecutiva C-level](https://juancamiloguerra.github.io/adidas-dest-ac/presentacion-ejecutiva.html) · [Fase 1: de la API a la tabla maestra](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html) · [Guía Markdown](https://juancamiloguerra.github.io/adidas-dest-ac/markdown.html) · [Abrir dashboard](https://juancamiloguerra.github.io/adidas-dest-ac/#overview) · [Escenarios](https://juancamiloguerra.github.io/adidas-dest-ac/#scenarios) · [Decisiones y ML](https://juancamiloguerra.github.io/adidas-dest-ac/#decisions) · [Resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html)
+[Presentación ejecutiva C-level](https://juancamiloguerra.github.io/adidas-dest-ac/presentacion-ejecutiva.html) · [Markdown - API](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html) · [Markdown - Pipeline](https://juancamiloguerra.github.io/adidas-dest-ac/markdown.html) · [Abrir dashboard](https://juancamiloguerra.github.io/adidas-dest-ac/#overview) · [Escenarios](https://juancamiloguerra.github.io/adidas-dest-ac/#scenarios) · [Decisiones y ML](https://juancamiloguerra.github.io/adidas-dest-ac/#decisions) · [Resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html)
 
 ## Recorrido recomendado para entender el proyecto
 

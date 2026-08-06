@@ -12,8 +12,8 @@ from html import escape
 
 NAV_ITEMS = [
     ("presentation", "Presentación ejecutiva", "presentacion-ejecutiva.html", None),
-    ("phase1", "Fase 1", "fase-1-api-tabla-maestra.html", None),
-    ("markdown", "Markdown", "markdown.html", None),
+    ("phase1", "Markdown - API", "fase-1-api-tabla-maestra.html", None),
+    ("markdown", "Markdown - Pipeline", "markdown.html", None),
     ("dashboard", "Dashboard", "index.html#overview", "overview"),
     ("scenarios", "Escenarios", "index.html#scenarios", "scenarios"),
     ("decisions", "Decisiones y ML", "index.html#decisions", "decisions"),
