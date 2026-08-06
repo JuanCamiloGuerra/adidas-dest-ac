@@ -12,8 +12,8 @@ def test_navigation_has_approved_order_and_dashboard_hashes() -> None:
     labels = [label for _, label, _, _ in NAV_ITEMS]
     assert labels == [
         "Presentación ejecutiva",
-        "Fase 1",
-        "Markdown",
+        "Markdown - API",
+        "Markdown - Pipeline",
         "Dashboard",
         "Escenarios",
         "Decisiones y ML",
@@ -42,6 +42,6 @@ def test_markdown_guide_uses_global_navigation(tmp_path) -> None:
     build_markdown_guide(notebook, output)
     rendered = output.read_text(encoding="utf-8")
     assert "Presentación ejecutiva" in rendered
-    assert '<a class="global-nav__link active" href="markdown.html">Markdown</a>' in rendered
+    assert '<a class="global-nav__link active" href="markdown.html">Markdown - Pipeline</a>' in rendered
     assert "Explicación <strong>visible</strong>" in rendered
     assert "no publicar" not in rendered
