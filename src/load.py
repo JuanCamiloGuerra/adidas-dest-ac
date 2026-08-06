@@ -8,6 +8,7 @@ Dependencias: pandas, SQLAlchemy y sqlite3.
 from __future__ import annotations
 
 import sqlite3
+from contextlib import closing
 from pathlib import Path
 from typing import Any
 
@@ -61,9 +62,14 @@ def persist_orders(df: pd.DataFrame, processed_dir: Path) -> dict[str, Any]:
     with engine.begin() as connection:
         for column in ["order_id", "user_id", "product_id", "order_date", "country", "category", "channel"]:
             connection.execute(text(f'CREATE INDEX IF NOT EXISTS "idx_orders_{column}" ON orders_enriched ("{column}")'))
+    # Libera explícitamente los handles SQLite; en Windows un engine vivo puede
+    # impedir limpiar directorios temporales o regenerar el archivo en la misma sesión.
+    engine.dispose()
     reloaded_csv = pd.read_csv(csv_path)
     reloaded_parquet = pd.read_parquet(parquet_path)
-    with sqlite3.connect(db_path) as connection:
+    # `sqlite3.Connection.__exit__` confirma la transacción, pero no cierra el
+    # handle; `closing` sí garantiza su liberación inmediata en Windows.
+    with closing(sqlite3.connect(db_path)) as connection:
         sqlite_rows = connection.execute("SELECT COUNT(*) FROM orders_enriched").fetchone()[0]
         sqlite_totals = connection.execute(
             "SELECT SUM(quantity), SUM(revenue) FROM orders_enriched"

@@ -16,10 +16,10 @@ Pedidos, valor bruto (`revenue`), ticket, unidades, frecuencia, recencia, amplit
 
 ## Perfiles
 
-| Segmento | Clientes | Participación | Valor bruto | Pedidos prom. | Ticket prom. | Acción |
-|---|---:|---:|---:|---:|---:|---|
-| Socios estratégicos | 72 | 84.7% | USD 4,080,103 | 2.6 | USD 22,913 | Retención ejecutiva, acuerdos de surtido y plan conjunto de crecimiento. |
-| Reactivación prioritaria | 13 | 15.3% | USD 94,156 | 1.2 | USD 6,615 | Campaña de reactivación con contacto comercial y diagnóstico de abandono. |
+| Segmento | Clientes | Participación | Valor bruto | Pedidos prom. | Ticket prom. | País predominante | Categoría predominante | Acción |
+|---|---:|---:|---:|---:|---:|---|---|---|
+| Socios estratégicos | 72 | 84.7% | USD 4,080,103 | 2.6 | USD 22,913 | Colombia | Footwear | Retención ejecutiva, acuerdos de surtido y plan conjunto de crecimiento. |
+| Reactivación prioritaria | 13 | 15.3% | USD 94,156 | 1.2 | USD 6,615 | Chile | Accessories | Campaña de reactivación con contacto comercial y diagnóstico de abandono. |
 
 ## Limitaciones
 

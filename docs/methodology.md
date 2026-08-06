@@ -28,7 +28,7 @@ La tabla se guarda en UTF-8 CSV, Parquet y SQLite. SQLite crea índices para ped
 
 ## Visualización
 
-El dashboard embebe Plotly, datos y JavaScript. Sus seis filtros operan en el navegador y recalculan KPIs y nueve vistas empresariales; tres visualizaciones adicionales presentan ML. No existen CDN, rutas `C:\`, servidor Python ni dependencia de la API después de generar el HTML.
+El dashboard embebe Plotly, datos y JavaScript. Sus seis filtros operan en el navegador y recalculan KPIs y nueve visualizaciones BI principales, dentro del rango solicitado de 8–12. Tres vistas de sensibilidad de cantidades y tres visualizaciones de ML se presentan como extensiones analíticas separadas. No existen CDN, rutas `C:\`, servidor Python ni dependencia de la API después de generar el HTML.
 
 ## Machine Learning
 
@@ -38,7 +38,7 @@ Como componente complementario se formalizó un Random Forest para `quantity` nu
 
 ## Pruebas
 
-Pytest valida paginación completa, normalización, revenue, fronteras de segmento, joins, columnas, calidad, SQLite, HTML, reproducibilidad y ausencia de infinitos. Las respuestas HTTP se simulan para no depender permanentemente de la API.
+Pytest valida paginación completa, uso de los endpoints de referencia, normalización, revenue, fronteras de segmento, joins, columnas, calidad, SQLite, HTML, reproducibilidad y ausencia de infinitos. Las respuestas HTTP se simulan para no depender permanentemente de la API.
 
 ## Limitaciones
 

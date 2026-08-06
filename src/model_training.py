@@ -70,6 +70,15 @@ def _segment_name(row: pd.Series, medians: pd.Series) -> str:
     return "Desarrollo de potencial"
 
 
+def _predominant_value(series: pd.Series) -> str:
+    """Devuelve la moda de un perfil con desempate alfabético reproducible."""
+
+    counts = series.dropna().astype(str).value_counts()
+    if counts.empty:
+        return "Sin dato"
+    return sorted(counts[counts.eq(counts.max())].index)[0]
+
+
 def train_segmentation(features: pd.DataFrame, model_dir: Path) -> dict[str, Any]:
     """Compara K-Means, jerárquico y GMM; selecciona por calidad e interpretabilidad."""
 
@@ -139,6 +148,12 @@ def train_segmentation(features: pd.DataFrame, model_dir: Path) -> dict[str, Any
         )
     )
     profile["customer_share"] = profile["customers"] / profile["customers"].sum()
+    profile["predominant_country"] = profile["cluster"].map(
+        assigned.groupby("cluster")["country"].agg(_predominant_value)
+    )
+    profile["predominant_category"] = profile["cluster"].map(
+        assigned.groupby("cluster")["top_category"].agg(_predominant_value)
+    )
     profile["recommended_action"] = profile["segment"].str.replace(r" \d+$", "", regex=True).map(action_map)
     pca = PCA(n_components=2, random_state=RANDOM_STATE)
     coords = pca.fit_transform(matrix)

@@ -15,7 +15,7 @@ def test_api_guide_uses_real_contract_and_master_table(
     build_api_guide_html(output_path=output, master=master, **api_collections)
     content = output.read_text(encoding="utf-8")
     assert "Venía con el proyecto" in content
-    assert "Lo construimos nosotros" in content
+    assert "Lo construí" in content
     assert "SportRetailAPIClient" in content
     assert "order_id + line_number" in content
     assert "tabla maestra" in content.lower()

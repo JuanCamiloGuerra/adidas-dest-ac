@@ -43,7 +43,7 @@ def _notebooks() -> dict[str, nbf.NotebookNode]:
     model.cells.extend([
         nbf.v4.new_code_cell("import json\nimport pandas as pd\nmetrics = json.loads((ROOT/'outputs/model/metrics.json').read_text(encoding='utf-8'))\ncomparison = pd.read_csv(ROOT/'outputs/model/model_comparison.csv')\nprofiles = pd.read_csv(ROOT/'outputs/model/segment_profiles.csv')\nmetrics"),
         nbf.v4.new_code_cell("comparison.sort_values('silhouette', ascending=False).head(10)"),
-        nbf.v4.new_code_cell("profiles[['segment','customers','customer_share','total_revenue','average_orders','average_ticket','recommended_action']]"),
+        nbf.v4.new_code_cell("profiles[['segment','customers','customer_share','total_revenue','average_orders','average_ticket','predominant_country','predominant_category','recommended_action']]"),
         nbf.v4.new_markdown_cell("## Conclusión\n\nLa segmentación es preferible a predecir el valor bruto (`revenue`) porque `quantity` y `unit_price` reconstruyen matemáticamente el objetivo. El silhouette se interpreta como moderado y los segmentos requieren validación comercial futura."),
     ])
     return {"01_etl.ipynb": etl, "02_visualization.ipynb": visual, "03_model.ipynb": model}

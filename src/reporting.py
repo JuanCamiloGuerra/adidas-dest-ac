@@ -87,7 +87,7 @@ def write_model_report(metrics: dict[str, Any], profiles: pd.DataFrame, docs_dir
     """Documenta selección, evaluación, perfiles y limitaciones del modelo."""
 
     rows = "\n".join(
-        f"| {r.segment} | {r.customers} | {r.customer_share:.1%} | {_money(r.total_revenue)} | {r.average_orders:.1f} | {_money(r.average_ticket)} | {r.recommended_action} |"
+        f"| {r.segment} | {r.customers} | {r.customer_share:.1%} | {_money(r.total_revenue)} | {r.average_orders:.1f} | {_money(r.average_ticket)} | {r.predominant_country} | {r.predominant_category} | {r.recommended_action} |"
         for r in profiles.itertuples()
     )
     text = f"""# Reporte del modelo — Segmentación de clientes
@@ -108,8 +108,8 @@ Pedidos, valor bruto (`revenue`), ticket, unidades, frecuencia, recencia, amplit
 
 ## Perfiles
 
-| Segmento | Clientes | Participación | Valor bruto | Pedidos prom. | Ticket prom. | Acción |
-|---|---:|---:|---:|---:|---:|---|
+| Segmento | Clientes | Participación | Valor bruto | Pedidos prom. | Ticket prom. | País predominante | Categoría predominante | Acción |
+|---|---:|---:|---:|---:|---:|---|---|---|
 {rows}
 
 ## Limitaciones

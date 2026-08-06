@@ -520,225 +520,225 @@ categorical__product_name_CoreFit Sports Bra v2,9.439264018161634e-07
 categorical__product_id_57,8.009659866877863e-07
 categorical__sku_SR-FOO-0009,5.00813861165619e-07
 categorical__order_id_9,2.748548095945093e-07
+categorical__order_id_103,0.0
+categorical__order_id_102,0.0
+categorical__order_id_106,0.0
+categorical__order_id_107,0.0
+categorical__order_id_108,0.0
+categorical__order_id_105,0.0
+categorical__order_id_112,0.0
+categorical__order_id_114,0.0
+categorical__order_id_115,0.0
+numeric__year,0.0
+categorical__order_id_100,0.0
+categorical__order_id_117,0.0
+categorical__order_id_12,0.0
+categorical__order_id_110,0.0
+categorical__order_id_123,0.0
+categorical__order_id_124,0.0
+categorical__order_id_128,0.0
+categorical__order_id_10,0.0
+categorical__order_id_1,0.0
+numeric__price_difference,0.0
+numeric__price_difference_pct,0.0
+categorical__product_name_SportRetail Pro Tennis Shoes v5,0.0
+categorical__product_name_SportRetail Pro Training Gloves v1,0.0
+categorical__product_name_SportRetail Pro Training Gloves v3,0.0
+categorical__product_name_UrbanSport Cap v2,0.0
+categorical__order_id_81,0.0
+categorical__order_id_82,0.0
+categorical__order_id_83,0.0
+categorical__order_id_85,0.0
+categorical__order_id_121,0.0
+categorical__order_id_87,0.0
+categorical__order_id_92,0.0
+categorical__order_id_93,0.0
+categorical__product_name_UrbanSport Jump Rope v3,0.0
+categorical__product_name_UrbanSport Performance T-Shirt v3,0.0
+categorical__product_name_UrbanSport Running Shoes v2,0.0
+categorical__order_id_66,0.0
+categorical__order_id_67,0.0
+categorical__order_id_68,0.0
+categorical__order_id_69,0.0
+categorical__order_id_70,0.0
+categorical__order_id_72,0.0
+categorical__order_id_73,0.0
+categorical__order_id_74,0.0
+categorical__order_id_77,0.0
+categorical__order_id_79,0.0
+categorical__sku_SR-ACC-0063,0.0
+categorical__order_id_51,0.0
+categorical__order_id_52,0.0
+categorical__order_id_54,0.0
+categorical__order_id_55,0.0
+categorical__order_id_57,0.0
+categorical__order_id_59,0.0
+categorical__order_id_60,0.0
+categorical__order_id_61,0.0
+categorical__product_name_SportRetail Pro Foam Roller v1,0.0
+categorical__order_id_96,0.0
+categorical__order_id_97,0.0
+categorical__order_id_98,0.0
+categorical__order_id_99,0.0
+categorical__user_id_10,0.0
+categorical__user_id_13,0.0
+categorical__user_id_16,0.0
+categorical__order_id_63,0.0
+categorical__order_id_64,0.0
+categorical__sku_SR-ACC-0073,0.0
+categorical__sku_SR-ACC-0080,0.0
+categorical__sku_SR-ACC-0086,0.0
+categorical__sku_SR-ACC-0087,0.0
+categorical__sku_SR-ACC-0090,0.0
+categorical__sku_SR-APP-0033,0.0
+categorical__sku_SR-APP-0036,0.0
+categorical__product_name_SpeedMax Agility Ladder v5,0.0
+categorical__product_name_SpeedMax Cap v3,0.0
+categorical__product_name_SpeedMax Football Boots v1,0.0
+categorical__product_name_SpeedMax Football Jersey v4,0.0
+categorical__product_name_SpeedMax Sport Socks v1,0.0
+categorical__product_name_SpeedMax Sport Socks v5,0.0
+categorical__user_id_29,0.0
+categorical__user_id_3,0.0
+categorical__product_name_SpeedMax Training Shorts v2,0.0
+categorical__product_name_SpeedMax Yoga Mat v1,0.0
+categorical__sku_SR-APP-0037,0.0
+categorical__order_id_37,0.0
+categorical__order_id_4,0.0
+categorical__order_id_41,0.0
+categorical__order_id_43,0.0
+categorical__order_id_46,0.0
+categorical__order_id_49,0.0
+categorical__user_id_68,0.0
+categorical__user_id_69,0.0
+categorical__product_name_PowerEdge Sports Bra v5,0.0
+categorical__product_name_PowerEdge Yoga Mat v3,0.0
+categorical__user_id_37,0.0
+categorical__user_id_44,0.0
+categorical__user_id_45,0.0
+categorical__user_id_46,0.0
+categorical__sku_SR-APP-0042,0.0
+categorical__sku_SR-APP-0043,0.0
 categorical__sku_SR-APP-0054,0.0
 categorical__sku_SR-APP-0055,0.0
-categorical__sku_SR-APP-0037,0.0
-categorical__sku_SR-APP-0036,0.0
-numeric__year,0.0
 categorical__sku_SR-APP-0056,0.0
-categorical__sku_SR-APP-0043,0.0
-numeric__price_difference,0.0
-categorical__sku_SR-FOO-0003,0.0
 categorical__sku_SR-APP-0060,0.0
-categorical__sku_SR-EQU-0106,0.0
-categorical__sku_SR-ACC-0080,0.0
-categorical__sku_SR-EQU-0120,0.0
-categorical__sku_SR-APP-0042,0.0
-categorical__sku_SR-EQU-0113,0.0
-categorical__sku_SR-FOO-0021,0.0
-categorical__sku_SR-ACC-0086,0.0
-categorical__sku_SR-EQU-0111,0.0
-categorical__sku_SR-FOO-0030,0.0
-categorical__sku_SR-APP-0033,0.0
-categorical__sku_SR-ACC-0087,0.0
-categorical__sku_SR-EQU-0103,0.0
-categorical__sku_SR-EQU-0101,0.0
-categorical__sku_SR-ACC-0073,0.0
-categorical__sku_SR-FOO-0002,0.0
-categorical__sku_SR-ACC-0090,0.0
 categorical__sku_SR-EQU-0092,0.0
 categorical__sku_SR-EQU-0098,0.0
-categorical__order_id_1,0.0
-categorical__sku_SR-ACC-0063,0.0
-categorical__order_id_68,0.0
-categorical__order_id_21,0.0
-categorical__order_id_200,0.0
-categorical__order_id_20,0.0
-categorical__order_id_2,0.0
-categorical__order_id_198,0.0
-categorical__order_id_195,0.0
-categorical__order_id_193,0.0
-categorical__order_id_192,0.0
-categorical__order_id_188,0.0
-categorical__order_id_187,0.0
-categorical__order_id_186,0.0
-categorical__order_id_185,0.0
-categorical__order_id_184,0.0
-categorical__order_id_183,0.0
-categorical__order_id_182,0.0
-categorical__order_id_180,0.0
-categorical__order_id_18,0.0
-categorical__order_id_179,0.0
-categorical__order_id_176,0.0
-categorical__order_id_175,0.0
-categorical__order_id_174,0.0
+categorical__user_id_88,0.0
+categorical__product_name_CoreFit Sport Socks v2,0.0
+categorical__product_name_CoreFit Sports Bra v1,0.0
+categorical__product_name_CoreFit Track Jacket v3,0.0
+categorical__product_name_PowerEdge Football Jersey v5,0.0
+categorical__user_id_52,0.0
+categorical__user_id_56,0.0
 categorical__order_id_24,0.0
 categorical__order_id_27,0.0
 categorical__order_id_30,0.0
-categorical__order_id_52,0.0
-categorical__order_id_66,0.0
-categorical__order_id_64,0.0
-categorical__order_id_63,0.0
-categorical__order_id_61,0.0
-categorical__order_id_60,0.0
-categorical__order_id_59,0.0
-categorical__order_id_57,0.0
-categorical__order_id_55,0.0
-categorical__order_id_54,0.0
-categorical__order_id_51,0.0
 categorical__order_id_32,0.0
-categorical__order_id_49,0.0
-categorical__order_id_46,0.0
-categorical__order_id_43,0.0
-categorical__order_id_41,0.0
-categorical__order_id_4,0.0
-categorical__order_id_37,0.0
-categorical__order_id_35,0.0
-categorical__order_id_34,0.0
 categorical__order_id_33,0.0
-categorical__order_id_172,0.0
-categorical__order_id_171,0.0
-categorical__order_id_170,0.0
-categorical__order_id_115,0.0
-categorical__order_id_133,0.0
-categorical__order_id_132,0.0
-categorical__order_id_130,0.0
-categorical__order_id_128,0.0
-categorical__order_id_124,0.0
-categorical__order_id_123,0.0
-categorical__order_id_121,0.0
-categorical__order_id_12,0.0
-categorical__order_id_117,0.0
-categorical__order_id_114,0.0
-categorical__order_id_135,0.0
-categorical__order_id_112,0.0
-categorical__order_id_110,0.0
-categorical__order_id_108,0.0
-categorical__order_id_107,0.0
-categorical__order_id_106,0.0
-categorical__order_id_105,0.0
-categorical__order_id_103,0.0
-categorical__order_id_102,0.0
-categorical__order_id_100,0.0
-categorical__order_id_134,0.0
-categorical__order_id_136,0.0
-categorical__order_id_17,0.0
-categorical__order_id_150,0.0
-categorical__order_id_165,0.0
-categorical__order_id_164,0.0
-categorical__order_id_160,0.0
-categorical__order_id_16,0.0
-categorical__order_id_158,0.0
-categorical__order_id_157,0.0
-categorical__order_id_154,0.0
-categorical__order_id_153,0.0
-categorical__order_id_152,0.0
-categorical__order_id_149,0.0
-categorical__order_id_138,0.0
-categorical__order_id_148,0.0
-categorical__order_id_147,0.0
-categorical__order_id_146,0.0
-categorical__order_id_145,0.0
-categorical__order_id_143,0.0
-categorical__order_id_142,0.0
-categorical__order_id_141,0.0
-categorical__order_id_140,0.0
-categorical__order_id_139,0.0
-categorical__order_id_67,0.0
-categorical__order_id_69,0.0
-categorical__product_name_UrbanSport Running Shoes v2,0.0
-categorical__order_id_70,0.0
+categorical__order_id_34,0.0
+categorical__order_id_35,0.0
+categorical__sku_SR-EQU-0101,0.0
 categorical__product_name_AthletX Sport Backpack v3,0.0
-categorical__product_name_AthletX Running Shoes v3,0.0
-categorical__product_name_AthletX Resistance Bands v2,0.0
-categorical__product_id_98,0.0
-categorical__product_id_96,0.0
-categorical__product_id_92,0.0
-categorical__product_id_90,0.0
-categorical__product_id_87,0.0
-categorical__product_id_86,0.0
-categorical__product_id_80,0.0
-categorical__order_id_10,0.0
-categorical__product_id_63,0.0
-categorical__product_id_60,0.0
-categorical__product_id_56,0.0
-categorical__product_id_55,0.0
-categorical__product_id_54,0.0
-categorical__product_id_43,0.0
-categorical__product_id_42,0.0
-categorical__product_id_4,0.0
-categorical__product_id_37,0.0
-categorical__product_id_36,0.0
 categorical__product_name_AthletX Track Jacket v2,0.0
 categorical__product_name_CoreFit Football Jersey v1,0.0
 categorical__product_name_CoreFit Headband v5,0.0
-categorical__product_name_SpeedMax Sport Socks v5,0.0
-categorical__product_name_UrbanSport Performance T-Shirt v3,0.0
-categorical__product_name_UrbanSport Jump Rope v3,0.0
-categorical__product_name_UrbanSport Cap v2,0.0
-categorical__product_name_SportRetail Pro Training Gloves v3,0.0
-categorical__product_name_SportRetail Pro Training Gloves v1,0.0
-categorical__product_name_SportRetail Pro Tennis Shoes v5,0.0
-categorical__product_name_SportRetail Pro Foam Roller v1,0.0
-categorical__product_name_SpeedMax Yoga Mat v1,0.0
-categorical__product_name_SpeedMax Training Shorts v2,0.0
-categorical__product_name_SpeedMax Sport Socks v1,0.0
-categorical__product_name_CoreFit Sport Socks v2,0.0
-categorical__product_name_SpeedMax Football Jersey v4,0.0
-categorical__product_name_SpeedMax Football Boots v1,0.0
-categorical__product_name_SpeedMax Cap v3,0.0
-categorical__product_name_SpeedMax Agility Ladder v5,0.0
-categorical__product_name_PowerEdge Yoga Mat v3,0.0
-categorical__product_name_PowerEdge Sports Bra v5,0.0
-categorical__product_name_PowerEdge Football Jersey v5,0.0
-categorical__product_name_CoreFit Track Jacket v3,0.0
-categorical__product_name_CoreFit Sports Bra v1,0.0
-categorical__product_id_33,0.0
-categorical__product_id_30,0.0
-categorical__product_id_3,0.0
-categorical__order_id_92,0.0
-categorical__user_id_29,0.0
-categorical__user_id_16,0.0
-categorical__user_id_13,0.0
-categorical__user_id_10,0.0
-categorical__order_id_99,0.0
-categorical__order_id_98,0.0
-categorical__order_id_97,0.0
-categorical__order_id_96,0.0
-categorical__order_id_93,0.0
-categorical__order_id_87,0.0
-categorical__user_id_37,0.0
-categorical__order_id_85,0.0
-categorical__order_id_83,0.0
-categorical__order_id_82,0.0
-categorical__order_id_81,0.0
-categorical__order_id_79,0.0
-categorical__order_id_77,0.0
-categorical__order_id_74,0.0
-categorical__order_id_73,0.0
-categorical__order_id_72,0.0
-categorical__user_id_3,0.0
-categorical__user_id_44,0.0
-categorical__product_id_21,0.0
-categorical__user_id_88,0.0
-categorical__product_id_2,0.0
-categorical__product_id_120,0.0
-categorical__product_id_117,0.0
-categorical__product_id_113,0.0
-categorical__product_id_111,0.0
-categorical__product_id_110,0.0
-categorical__product_id_101,0.0
-categorical__user_id_90,0.0
-categorical__user_id_9,0.0
-categorical__user_id_78,0.0
-categorical__user_id_45,0.0
-categorical__user_id_72,0.0
-categorical__user_id_71,0.0
-categorical__user_id_70,0.0
 categorical__user_id_7,0.0
-categorical__user_id_69,0.0
-categorical__user_id_68,0.0
-categorical__user_id_56,0.0
-categorical__user_id_52,0.0
-categorical__user_id_46,0.0
-numeric__price_difference_pct,0.0
+categorical__user_id_70,0.0
+categorical__user_id_71,0.0
+categorical__user_id_72,0.0
+categorical__user_id_78,0.0
+categorical__sku_SR-EQU-0103,0.0
+categorical__sku_SR-EQU-0106,0.0
+categorical__sku_SR-EQU-0111,0.0
+categorical__sku_SR-EQU-0113,0.0
+categorical__sku_SR-EQU-0120,0.0
+categorical__sku_SR-FOO-0002,0.0
+categorical__sku_SR-FOO-0003,0.0
+categorical__product_id_111,0.0
+categorical__product_id_113,0.0
+categorical__product_id_117,0.0
+categorical__product_id_98,0.0
+categorical__product_name_AthletX Resistance Bands v2,0.0
+categorical__product_name_AthletX Running Shoes v3,0.0
+categorical__user_id_9,0.0
+categorical__user_id_90,0.0
+categorical__product_id_101,0.0
+categorical__order_id_192,0.0
+categorical__order_id_193,0.0
+categorical__order_id_195,0.0
+categorical__order_id_198,0.0
+categorical__order_id_2,0.0
+categorical__order_id_20,0.0
+categorical__order_id_200,0.0
+categorical__order_id_21,0.0
+categorical__product_id_87,0.0
+categorical__product_id_90,0.0
+categorical__product_id_92,0.0
+categorical__product_id_96,0.0
+categorical__product_id_120,0.0
+categorical__product_id_2,0.0
+categorical__product_id_21,0.0
+categorical__product_id_110,0.0
+categorical__sku_SR-FOO-0021,0.0
+categorical__order_id_174,0.0
+categorical__order_id_175,0.0
+categorical__order_id_176,0.0
+categorical__order_id_179,0.0
+categorical__order_id_18,0.0
+categorical__order_id_180,0.0
+categorical__order_id_182,0.0
+categorical__order_id_183,0.0
+categorical__product_id_80,0.0
+categorical__product_id_3,0.0
+categorical__product_id_30,0.0
+categorical__product_id_33,0.0
+categorical__product_id_36,0.0
+categorical__product_id_37,0.0
+categorical__product_id_86,0.0
+categorical__order_id_184,0.0
+categorical__order_id_185,0.0
+categorical__order_id_186,0.0
+categorical__order_id_187,0.0
+categorical__order_id_188,0.0
+categorical__sku_SR-FOO-0030,0.0
+categorical__order_id_16,0.0
+categorical__order_id_160,0.0
+categorical__order_id_164,0.0
+categorical__order_id_165,0.0
+categorical__order_id_17,0.0
+categorical__order_id_170,0.0
+categorical__order_id_171,0.0
+categorical__order_id_172,0.0
+categorical__order_id_145,0.0
+categorical__order_id_146,0.0
+categorical__order_id_147,0.0
+categorical__order_id_148,0.0
+categorical__order_id_149,0.0
+categorical__order_id_150,0.0
+categorical__order_id_152,0.0
+categorical__order_id_153,0.0
+categorical__order_id_154,0.0
+categorical__order_id_157,0.0
+categorical__order_id_158,0.0
+categorical__product_id_54,0.0
+categorical__product_id_55,0.0
+categorical__product_id_56,0.0
+categorical__product_id_60,0.0
+categorical__product_id_63,0.0
+categorical__product_id_4,0.0
+categorical__product_id_42,0.0
+categorical__product_id_43,0.0
+categorical__order_id_130,0.0
+categorical__order_id_132,0.0
+categorical__order_id_133,0.0
+categorical__order_id_134,0.0
+categorical__order_id_135,0.0
+categorical__order_id_136,0.0
+categorical__order_id_138,0.0
+categorical__order_id_139,0.0
+categorical__order_id_140,0.0
+categorical__order_id_141,0.0
+categorical__order_id_142,0.0
+categorical__order_id_143,0.0

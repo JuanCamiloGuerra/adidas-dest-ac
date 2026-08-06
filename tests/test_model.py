@@ -14,6 +14,7 @@ def test_model_is_reproducible(tmp_path, customer_features: pd.DataFrame) -> Non
     assert first["algorithm"] == second["algorithm"]
     assert first["clusters"] == second["clusters"]
     assert first["assignments"]["cluster"].tolist() == second["assignments"]["cluster"].tolist()
+    assert {"predominant_country", "predominant_category"}.issubset(first["profiles"].columns)
 
 
 def test_static_html_is_generated(tmp_path, api_collections: dict[str, list[dict[str, object]]]) -> None:
@@ -28,4 +29,3 @@ def test_static_html_is_generated(tmp_path, api_collections: dict[str, list[dict
     assert target.exists()
     assert "Plotly" in content and "const RAW=" in content
     assert "C:\\Users\\" not in content
-

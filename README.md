@@ -30,11 +30,11 @@ Solución integral para analizar el desempeño de un distribuidor mayorista fict
 | Valor bruto de pedidos | USD 4.174.258,92 |
 | Unidades | 45.414 |
 | Clientes compradores | 85 |
-| Visualizaciones | 15 en tres vistas interactivas |
+| Visualizaciones | 9 BI principales + 3 escenarios + 3 ML |
 | Modelo oficial | Clustering jerárquico, 2 segmentos |
 | Silhouette | 0,310 |
 | Modelo experimental | Random Forest para `quantity` nula; uso solo como escenario |
-| Pruebas | 13 definidas |
+| Pruebas | 14 definidas |
 
 Los resultados no se inventaron: se materializan en `data/quality/persistence_validation.json`, `outputs/reports/business_summary.json` y `outputs/model/metrics.json`.
 
@@ -182,6 +182,7 @@ El proyecto también formaliza un Random Forest para estimar las 12 líneas con 
 - `docs/data_dictionary.md`: variable, tipo, fuente, regla, valores, nulos y uso.
 - `docs/model_report.md`: selección, resultados y limitaciones.
 - `docs/missing_quantity_report.md`: diseño, validación y límites del Random Forest experimental.
+- `docs/compliance_audit.md`: matriz de trazabilidad entre el requerimiento inicial y cada evidencia del proyecto.
 - `data/processed/orders_enriched.*`: CSV, Parquet y SQLite.
 - `outputs/model/`: features, comparación, segmentos, PCA y modelo.
 - `outputs/quantity_model/`: métricas, predicciones, importancia, escenarios y modelo experimental.
