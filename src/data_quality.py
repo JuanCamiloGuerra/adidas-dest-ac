@@ -53,7 +53,7 @@ def evaluate_quality(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
         ("Precio distinto al catálogo", lambda x: x["price_difference"].abs().gt(0.01), "Conservar ambos precios", "La línea refleja la venta histórica; el catálogo es referencia.", "Baja"),
         ("Revenue extremo por IQR", lambda x: _outlier_mask(x["revenue"]), "Conservar y monitorear", "En mayoristas, valores altos pueden ser compras legítimas.", "Media"),
         ("Cantidad extrema por IQR", lambda x: _outlier_mask(x["quantity"]), "Conservar y monitorear", "No se eliminan outliers automáticamente.", "Baja"),
-        ("Inventario nulo", lambda x: x["inventory"].isna(), "Conservar nulo", "No afecta el cálculo histórico de ingresos.", "Baja"),
+        ("Inventario nulo", lambda x: x["inventory"].isna(), "Conservar nulo", "No afecta el cálculo histórico del valor bruto de pedidos.", "Baja"),
         ("Calificación nula", lambda x: x["rating"].isna(), "Conservar nulo", "No se inventa percepción de producto.", "Baja"),
         ("Duplicado de catálogo por SKU", lambda x: x["catalog_duplicate_flag"].fillna(False), "Conservar y marcar", "Los IDs son distintos; deduplicar SKU rompería trazabilidad.", "Media"),
     ]
@@ -87,4 +87,3 @@ def evaluate_quality(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     )
     report = pd.DataFrame(report_rows)
     return working, report
-

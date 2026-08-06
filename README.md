@@ -2,12 +2,12 @@
 
 Solución integral para analizar el desempeño de un distribuidor mayorista ficticio de artículos deportivos en Colombia, México, Argentina, Chile y Perú. Incluye extracción REST paginada, calidad, tabla analítica, dashboard HTML autónomo, resumen ejecutivo, segmentación de clientes, notebooks y pruebas.
 
-[Fase 1: de la API a la tabla maestra](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html) · [Presentación ejecutiva C-level](https://juancamiloguerra.github.io/adidas-dest-ac/presentacion-ejecutiva.html) · [Abrir dashboard](https://juancamiloguerra.github.io/adidas-dest-ac/) · [Resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html)
+[Presentación ejecutiva C-level](https://juancamiloguerra.github.io/adidas-dest-ac/presentacion-ejecutiva.html) · [Fase 1: de la API a la tabla maestra](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html) · [Guía Markdown](https://juancamiloguerra.github.io/adidas-dest-ac/markdown.html) · [Abrir dashboard](https://juancamiloguerra.github.io/adidas-dest-ac/#overview) · [Escenarios](https://juancamiloguerra.github.io/adidas-dest-ac/#scenarios) · [Decisiones y ML](https://juancamiloguerra.github.io/adidas-dest-ac/#decisions) · [Resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html)
 
 ## Recorrido recomendado para entender el proyecto
 
 1. **Fase 1 — API y tabla maestra:** guía HTML visual sobre la API suministrada, el cliente HTTP construido, los ajustes de reproducibilidad, la paginación, la granularidad y los joins hasta obtener `orders_enriched`. [Abrir sin ejecutar código](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html).
-2. **Fase 2 — Análisis reproducible:** [`notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb`](notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb) explica calidad, nulos, outliers, estadística, escenarios y modelos desde la tabla consolidada.
+2. **Fase 2 — Análisis reproducible:** la [Guía Markdown web](https://juancamiloguerra.github.io/adidas-dest-ac/markdown.html) permite leer la explicación sin ejecutar código; [`notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb`](notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb) contiene además el código, las salidas y las tablas reproducibles.
 3. **Fase 3 — Decisión ejecutiva:** [presentación C-level](https://juancamiloguerra.github.io/adidas-dest-ac/presentacion-ejecutiva.html) con interpretación, riesgos, estrategias, prioridades y plan de 12 meses.
 4. **Fase 4 — Monitoreo:** [dashboard interactivo](https://juancamiloguerra.github.io/adidas-dest-ac/) y [resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html).
 
@@ -34,7 +34,7 @@ Solución integral para analizar el desempeño de un distribuidor mayorista fict
 | Modelo oficial | Clustering jerárquico, 2 segmentos |
 | Silhouette | 0,310 |
 | Modelo experimental | Random Forest para `quantity` nula; uso solo como escenario |
-| Pruebas | 9 definidas |
+| Pruebas | 13 definidas |
 
 Los resultados no se inventaron: se materializan en `data/quality/persistence_validation.json`, `outputs/reports/business_summary.json` y `outputs/model/metrics.json`.
 
@@ -42,7 +42,7 @@ Los resultados no se inventaron: se materializan en `data/quality/persistence_va
 
 ## Hallazgos principales
 
-1. **Colombia genera 27,0% del ingreso** (USD 1.129.080). Conviene proteger cuentas clave y desarrollar el segundo mercado, Perú, con metas trimestrales.
+1. **Colombia genera 27,0% del valor bruto de pedidos** (USD 1.129.080). Conviene proteger cuentas clave y desarrollar el segundo mercado, Perú, con metas trimestrales.
 2. **E-commerce B2B concentra 37,8%** (USD 1.578.625). La mezcla ganadora de surtido y ticket debe probarse en Distributor, el canal de menor contribución.
 3. **Footwear aporta 47,8%** (USD 1.997.353). La disponibilidad de la categoría tiene efecto desproporcionado y puede habilitar venta cruzada con Accessories.
 
@@ -77,7 +77,7 @@ adidas-dest-ac/
 │   ├── raw/             # respuestas HTTP locales, no versionadas
 │   ├── processed/       # CSV, Parquet y SQLite
 │   └── quality/         # reglas y reconciliación
-├── docs/                 # GitHub Pages, resumen y metodología
+├── docs/                 # GitHub Pages, guía Markdown, resumen y metodología
 ├── outputs/model/        # features, comparaciones, perfiles y artefacto
 ├── outputs/quantity_model/ # predicciones y sensibilidad de quantity nula
 └── tests/                # pruebas unitarias sin red
@@ -164,7 +164,7 @@ Véase [decisiones de limpieza](docs/cleaning_decisions.md), [reporte de calidad
 
 ## Modelo
 
-La opción principal es segmentación de clientes. Predecir revenue antes de confirmar el pedido no es metodológicamente sólido con estas variables: incluir `quantity` y `unit_price` reconstruye exactamente el objetivo; excluirlas reduce la utilidad. Se comparan K-Means, jerárquico y Gaussian Mixture para 2–6 grupos con `random_state=42` donde aplica, silhouette, tamaño mínimo e interpretabilidad.
+La opción principal es segmentación de clientes. Predecir el valor bruto (`revenue`) antes de confirmar el pedido no es metodológicamente sólido con estas variables: incluir `quantity` y `unit_price` reconstruye exactamente el objetivo; excluirlas reduce la utilidad. Se comparan K-Means, jerárquico y Gaussian Mixture para 2–6 grupos con `random_state=42` donde aplica, silhouette, tamaño mínimo e interpretabilidad.
 
 El modelo elegido es jerárquico con dos segmentos: 72 socios estratégicos (84,7%) y 13 clientes de reactivación prioritaria (15,3%). Silhouette 0,310 indica separación moderada. La PCA explica 50,9% en dos ejes y no se presenta como prueba de separación perfecta. Detalles en [model_report.md](docs/model_report.md).
 

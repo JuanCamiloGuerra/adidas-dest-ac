@@ -19,7 +19,7 @@ La limpieza prioriza trazabilidad: ninguna observación se elimina automáticame
 | Precio distinto al catálogo | 0 (0.00%) | Conservar ambos precios | La línea refleja la venta histórica; el catálogo es referencia. | Baja |
 | Revenue extremo por IQR | 44 (6.00%) | Conservar y monitorear | En mayoristas, valores altos pueden ser compras legítimas. | Media |
 | Cantidad extrema por IQR | 0 (0.00%) | Conservar y monitorear | No se eliminan outliers automáticamente. | Baja |
-| Inventario nulo | 8 (1.09%) | Conservar nulo | No afecta el cálculo histórico de ingresos. | Baja |
+| Inventario nulo | 8 (1.09%) | Conservar nulo | No afecta el cálculo histórico del valor bruto de pedidos. | Baja |
 | Calificación nula | 18 (2.46%) | Conservar nulo | No se inventa percepción de producto. | Baja |
 | Duplicado de catálogo por SKU | 0 (0.00%) | Conservar y marcar | Los IDs son distintos; deduplicar SKU rompería trazabilidad. | Media |
 
@@ -27,5 +27,5 @@ La limpieza prioriza trazabilidad: ninguna observación se elimina automáticame
 
 - El precio histórico es el de la línea del pedido; el precio de catálogo no lo reemplaza.
 - Los outliers por IQR son alertas, no errores: un pedido mayorista puede tener cantidades altas legítimas.
-- Una cantidad nula no se imputa porque alteraría unidades e ingresos.
+- Una cantidad nula no se imputa porque alteraría unidades y valor bruto de pedidos.
 - Los duplicados por SKU con IDs diferentes se marcan y conservan para no romper referencias transaccionales.

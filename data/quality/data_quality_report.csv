@@ -14,6 +14,6 @@ Usuario sin correspondencia,733,0,0.0,Conservar y marcar,Evita perder ventas por
 Precio distinto al catálogo,733,0,0.0,Conservar ambos precios,La línea refleja la venta histórica; el catálogo es referencia.,Baja
 Revenue extremo por IQR,733,44,6.0,Conservar y monitorear,"En mayoristas, valores altos pueden ser compras legítimas.",Media
 Cantidad extrema por IQR,733,0,0.0,Conservar y monitorear,No se eliminan outliers automáticamente.,Baja
-Inventario nulo,733,8,1.09,Conservar nulo,No afecta el cálculo histórico de ingresos.,Baja
+Inventario nulo,733,8,1.09,Conservar nulo,No afecta el cálculo histórico del valor bruto de pedidos.,Baja
 Calificación nula,733,18,2.46,Conservar nulo,No se inventa percepción de producto.,Baja
 Duplicado de catálogo por SKU,733,0,0.0,Conservar y marcar,Los IDs son distintos; deduplicar SKU rompería trazabilidad.,Media
