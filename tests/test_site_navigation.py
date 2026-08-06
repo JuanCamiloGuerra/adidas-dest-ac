@@ -12,7 +12,7 @@ def test_navigation_has_approved_order_and_dashboard_hashes() -> None:
     labels = [label for _, label, _, _ in NAV_ITEMS]
     assert labels == [
         "Presentación ejecutiva",
-        "Markdown - API",
+        "API",
         "Markdown - Pipeline",
         "Dashboard",
         "Escenarios",
