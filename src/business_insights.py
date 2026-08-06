@@ -56,7 +56,7 @@ def calculate_kpis(df: pd.DataFrame) -> dict[str, Any]:
         "delivered_order_rate": delivered_rate,
         "latest_month_change": monthly_change,
         "formula_notes": {
-            "total_revenue": "Suma de unit_price × quantity para líneas válidas.",
+            "total_revenue": "Valor bruto: suma de unit_price × quantity para líneas válidas de todos los estados.",
             "units_sold": "Suma de quantity para líneas válidas.",
             "orders": "Conteo distinto de order_id con al menos una línea válida.",
             "customers": "Conteo distinto de user_id con al menos una línea válida.",
@@ -89,28 +89,28 @@ def generate_insights(df: pd.DataFrame) -> list[dict[str, str]]:
     return [
         {
             "title": "Concentración geográfica",
-            "observation": f"{by_country.index[0]} genera {top_country_share:.1%} de los ingresos (${by_country.iloc[0]:,.0f}).",
+            "observation": f"{by_country.index[0]} genera {top_country_share:.1%} del valor bruto de pedidos (${by_country.iloc[0]:,.0f}).",
             "importance": "La exposición al mercado líder condiciona el crecimiento regional.",
             "implication": "Una desaceleración local tendría impacto material sobre el total.",
             "action": f"Proteger cuentas clave en {by_country.index[0]} y desarrollar {second_country} con metas de participación trimestrales.",
         },
         {
             "title": "Canal que sostiene el negocio",
-            "observation": f"{by_channel.index[0]} concentra {top_channel_share:.1%} del revenue (${by_channel.iloc[0]:,.0f}).",
+            "observation": f"{by_channel.index[0]} concentra {top_channel_share:.1%} del valor bruto de pedidos (${by_channel.iloc[0]:,.0f}).",
             "importance": "La mezcla de canales determina cobertura, costo comercial y escalabilidad.",
             "implication": "Existe oportunidad de replicar las prácticas del canal líder sin depender exclusivamente de él.",
             "action": f"Analizar surtido y ticket de {by_channel.index[0]} y transferir las combinaciones ganadoras a {by_channel.index[-1]}.",
         },
         {
             "title": "Categoría tractora",
-            "observation": f"{by_category.index[0]} aporta {top_category_share:.1%} del ingreso (${by_category.iloc[0]:,.0f}).",
+            "observation": f"{by_category.index[0]} aporta {top_category_share:.1%} del valor bruto de pedidos (${by_category.iloc[0]:,.0f}).",
             "importance": "El surtido líder es el principal motor de monetización.",
             "implication": "Disponibilidad e inventario en esta categoría tienen efecto desproporcionado.",
             "action": f"Priorizar disponibilidad de {by_category.index[0]} y diseñar venta cruzada con {by_category.index[-1]}.",
         },
         {
             "title": "Concentración de clientes",
-            "observation": f"Los 10 clientes con mayor facturación representan {top10_share:.1%} del ingreso.",
+            "observation": f"Los 10 clientes con mayor valor de pedidos representan {top10_share:.1%} del total bruto.",
             "importance": "La concentración revela tanto valor de cuentas clave como riesgo de dependencia.",
             "implication": "Retener estas cuentas es prioritario, pero la cartera debe ampliarse.",
             "action": "Asignar planes de cuenta a los clientes principales y activar crecimiento en segmentos de potencial medio.",
@@ -124,7 +124,7 @@ def generate_insights(df: pd.DataFrame) -> list[dict[str, str]]:
         },
         {
             "title": "Cierre del periodo",
-            "observation": f"El ingreso del último mes cambió {latest_change:+.1%} frente al mes anterior.",
+            "observation": f"El valor bruto de pedidos del último mes cambió {latest_change:+.1%} frente al mes anterior.",
             "importance": "La variación mensual sirve como alerta, pero una sola anualidad no define estacionalidad.",
             "implication": "No debe extrapolarse como tendencia estructural.",
             "action": "Monitorear una serie histórica más larga y contrastar la variación con pedidos, unidades y calendario comercial.",
