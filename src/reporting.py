@@ -28,11 +28,11 @@ def write_executive_summary(kpis: dict[str, Any], insights: list[dict[str, str]]
 
 ## Objetivo
 
-Evaluar el desempeño mayorista regional, localizar los motores de ingreso y convertir los patrones observados en acciones comerciales.
+Evaluar el desempeño mayorista regional, localizar los motores de valor de pedidos y convertir los patrones observados en acciones comerciales.
 
 ## Escala analizada
 
-- Ingresos: **{_money(kpis['total_revenue'])}**
+- Valor bruto de pedidos: **{_money(kpis['total_revenue'])}**
 - Pedidos: **{kpis['orders']:,}**
 - Clientes: **{kpis['customers']:,}**
 - Unidades: **{kpis['units_sold']:,.0f}**
@@ -42,6 +42,7 @@ Evaluar el desempeño mayorista regional, localizar los motores de ingreso y con
 ## Limitaciones
 
 Datos sintéticos de 2024, sin costos, margen, metas ni historial multianual. Los outliers mayoristas se conservan y se marcan; las relaciones son descriptivas, no causales.
+El campo `revenue` incluye todos los estados del pedido; solo debe interpretarse como ingreso realizado cuando exista evidencia de entrega, facturación y pago.
 """
     docs_dir.mkdir(parents=True, exist_ok=True)
     (docs_dir / "executive_summary.md").write_text(markdown, encoding="utf-8")
@@ -51,7 +52,7 @@ Datos sintéticos de 2024, sin costos, margen, metas ni historial multianual. Lo
     )
     html = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Resumen ejecutivo | SportRetail LAM</title><style>
 body{{margin:0;background:#f1f1ef;color:#111;font-family:Arial,sans-serif}}main{{max-width:1100px;margin:auto;padding:40px 24px}}header{{background:#050505;color:white;padding:42px}}header h1{{font-size:48px;margin:8px 0;letter-spacing:-.05em}}.eyebrow{{color:#d7ff3f;text-transform:uppercase;letter-spacing:.13em;font-size:11px;font-weight:bold}}.metrics{{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:16px 0}}.metric,article{{background:white;padding:18px;border-top:4px solid #111}}.metric strong{{display:block;font-size:22px;margin-top:8px}}.findings{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}}article span{{font-weight:bold;color:#777}}article h2{{font-size:22px}}article p{{line-height:1.5;color:#444}}.limits{{margin-top:18px;border:1px solid #ccc;padding:18px}}a{{color:inherit}}@media(max-width:800px){{.metrics,.findings{{grid-template-columns:1fr 1fr}}}}@media(max-width:520px){{.metrics,.findings{{grid-template-columns:1fr}}}}
-</style></head><body><main><header><span class="eyebrow">SportRetail LAM · 2024</span><h1>Resumen ejecutivo</h1><p>Desempeño mayorista regional y prioridades de acción.</p><a href="index.html" style="color:white">Volver al dashboard</a></header><section class="metrics"><div class="metric">Ingresos<strong>{_money(kpis['total_revenue'])}</strong></div><div class="metric">Pedidos<strong>{kpis['orders']:,}</strong></div><div class="metric">Clientes<strong>{kpis['customers']:,}</strong></div><div class="metric">Unidades<strong>{kpis['units_sold']:,.0f}</strong></div><div class="metric">Entregados<strong>{kpis['delivered_order_rate']:.1%}</strong></div></section><section class="findings">{finding_cards}</section><section class="limits"><strong>Limitaciones.</strong> Datos sintéticos de un año, sin costos ni metas. Los resultados son descriptivos; no demuestran causalidad.</section></main></body></html>"""
+</style></head><body><main><header><span class="eyebrow">SportRetail LAM · 2024</span><h1>Resumen ejecutivo</h1><p>Desempeño mayorista regional y prioridades de acción.</p><a href="presentacion-ejecutiva.html" style="color:white">Ver presentación ejecutiva</a> · <a href="index.html" style="color:white">Volver al dashboard</a></header><section class="metrics"><div class="metric">Valor bruto de pedidos<strong>{_money(kpis['total_revenue'])}</strong></div><div class="metric">Pedidos<strong>{kpis['orders']:,}</strong></div><div class="metric">Clientes<strong>{kpis['customers']:,}</strong></div><div class="metric">Unidades<strong>{kpis['units_sold']:,.0f}</strong></div><div class="metric">Entregados<strong>{kpis['delivered_order_rate']:.1%}</strong></div></section><section class="findings">{finding_cards}</section><section class="limits"><strong>Limitaciones.</strong> El valor bruto incluye todos los estados y no equivale necesariamente a ingreso realizado. Datos sintéticos de un año, sin costos ni metas; los resultados son descriptivos y no demuestran causalidad.</section></main></body></html>"""
     (docs_dir / "executive_summary.html").write_text(html, encoding="utf-8")
 
 
@@ -121,4 +122,3 @@ Pedidos, revenue, ticket, unidades, frecuencia, recencia, amplitud y concentraci
 Pilotear acciones por segmento durante un trimestre y medir retención, frecuencia, ticket y margen antes de automatizar decisiones.
 """
     (docs_dir / "model_report.md").write_text(text, encoding="utf-8")
-

@@ -2,17 +2,18 @@
 
 Solución integral para analizar el desempeño de un distribuidor mayorista ficticio de artículos deportivos en Colombia, México, Argentina, Chile y Perú. Incluye extracción REST paginada, calidad, tabla analítica, dashboard HTML autónomo, resumen ejecutivo, segmentación de clientes, notebooks y pruebas.
 
-[Fase 1: de la API a la tabla maestra](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html) · [Abrir dashboard](https://juancamiloguerra.github.io/adidas-dest-ac/) · [Resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html)
+[Fase 1: de la API a la tabla maestra](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html) · [Presentación ejecutiva C-level](https://juancamiloguerra.github.io/adidas-dest-ac/presentacion-ejecutiva.html) · [Abrir dashboard](https://juancamiloguerra.github.io/adidas-dest-ac/) · [Resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html)
 
 ## Recorrido recomendado para entender el proyecto
 
 1. **Fase 1 — API y tabla maestra:** guía HTML visual sobre la API suministrada, el cliente HTTP construido, los ajustes de reproducibilidad, la paginación, la granularidad y los joins hasta obtener `orders_enriched`. [Abrir sin ejecutar código](https://juancamiloguerra.github.io/adidas-dest-ac/fase-1-api-tabla-maestra.html).
 2. **Fase 2 — Análisis reproducible:** [`notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb`](notebooks/guia_integral_para_entender_proyecto_sportretail.ipynb) explica calidad, nulos, outliers, estadística, escenarios y modelos desde la tabla consolidada.
-3. **Fase 3 — Comunicación ejecutiva:** [dashboard interactivo](https://juancamiloguerra.github.io/adidas-dest-ac/) y [resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html).
+3. **Fase 3 — Decisión ejecutiva:** [presentación C-level](https://juancamiloguerra.github.io/adidas-dest-ac/presentacion-ejecutiva.html) con interpretación, riesgos, estrategias, prioridades y plan de 12 meses.
+4. **Fase 4 — Monitoreo:** [dashboard interactivo](https://juancamiloguerra.github.io/adidas-dest-ac/) y [resumen ejecutivo](https://juancamiloguerra.github.io/adidas-dest-ac/executive_summary.html).
 
 ## Preguntas de negocio
 
-- ¿Cómo funciona el negocio y qué mercados, canales y categorías generan ingresos?
+- ¿Cómo funciona el negocio y qué mercados, canales y categorías generan valor de pedidos?
 - ¿Qué clientes y productos impulsan el desempeño y dónde existe concentración?
 - ¿Qué riesgos de cumplimiento o calidad requieren atención?
 - ¿Cómo segmentar minoristas para diseñar acciones comerciales diferenciadas?
@@ -26,7 +27,7 @@ Solución integral para analizar el desempeño de un distribuidor mayorista fict
 | Pedidos extraídos | 200 |
 | Líneas en `orders_enriched` | 733 |
 | Rango de fechas | 2024-01-02 a 2024-12-28 |
-| Ingresos | USD 4.174.258,92 |
+| Valor bruto de pedidos | USD 4.174.258,92 |
 | Unidades | 45.414 |
 | Clientes compradores | 85 |
 | Visualizaciones | 15 en tres vistas interactivas |
@@ -36,6 +37,8 @@ Solución integral para analizar el desempeño de un distribuidor mayorista fict
 | Pruebas | 9 definidas |
 
 Los resultados no se inventaron: se materializan en `data/quality/persistence_validation.json`, `outputs/reports/business_summary.json` y `outputs/model/metrics.json`.
+
+**Nota de interpretación:** el campo técnico `revenue` representa `unit_price × quantity` para líneas de todos los estados. Por ello, USD 4,17 M se presenta como valor bruto de pedidos; el valor asociado a pedidos entregados es USD 1,85 M. Sin facturación, pagos y devoluciones no debe asumirse que el total es ingreso contablemente realizado.
 
 ## Hallazgos principales
 
@@ -126,6 +129,7 @@ python scripts/run_etl.py
 python scripts/build_api_guide.py
 python scripts/run_model.py
 python scripts/run_quantity_model.py
+python scripts/build_executive_presentation.py
 python scripts/build_dashboard.py
 python scripts/build_notebooks.py
 ```
@@ -172,6 +176,7 @@ El proyecto también formaliza un Random Forest para estimar las 12 líneas con 
 
 - `docs/index.html`: dashboard y entrada de Pages.
 - `docs/fase-1-api-tabla-maestra.html`: guía visual desde la API hasta `orders_enriched`.
+- `docs/presentacion-ejecutiva.html`: presentación C-level de resultados, decisiones y estrategia.
 - `docs/executive_summary.html|md`: resumen de una página.
 - `docs/methodology.md`: arquitectura, ETL, calidad, visualización y ML.
 - `docs/data_dictionary.md`: variable, tipo, fuente, regla, valores, nulos y uso.
