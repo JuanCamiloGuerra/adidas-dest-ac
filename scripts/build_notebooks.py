@@ -30,7 +30,7 @@ def _notebooks() -> dict[str, nbf.NotebookNode]:
         nbf.v4.new_code_cell("import json\nimport pandas as pd\norders = pd.read_parquet(ROOT/'data/processed/orders_enriched.parquet')\nquality = pd.read_csv(ROOT/'data/quality/data_quality_report.csv')\nvalidation = json.loads((ROOT/'data/quality/persistence_validation.json').read_text(encoding='utf-8'))\nvalidation['source_counts'], orders.shape"),
         nbf.v4.new_code_cell("orders[['order_id','user_id','product_id','country','category','quantity','unit_price','revenue','data_quality_flag']].head(10)"),
         nbf.v4.new_code_cell("quality.sort_values('registros_afectados', ascending=False).head(10)"),
-        nbf.v4.new_markdown_cell("## Conclusión\n\nLos conteos de API, CSV, Parquet y SQLite reconcilian. Las cantidades nulas se conservan y el revenue correspondiente permanece nulo; los outliers se marcan sin eliminarlos."),
+        nbf.v4.new_markdown_cell("## Conclusión\n\nLos conteos de API, CSV, Parquet y SQLite reconcilian. Las cantidades nulas se conservan y el valor bruto (`revenue`) correspondiente permanece nulo; los outliers se marcan sin eliminarlos."),
     ])
     visual = _base_notebook("02 · Visualización empresarial", "Cálculo reproducible de KPIs y lectura de los principales impulsores.")
     visual.cells.extend([
@@ -44,7 +44,7 @@ def _notebooks() -> dict[str, nbf.NotebookNode]:
         nbf.v4.new_code_cell("import json\nimport pandas as pd\nmetrics = json.loads((ROOT/'outputs/model/metrics.json').read_text(encoding='utf-8'))\ncomparison = pd.read_csv(ROOT/'outputs/model/model_comparison.csv')\nprofiles = pd.read_csv(ROOT/'outputs/model/segment_profiles.csv')\nmetrics"),
         nbf.v4.new_code_cell("comparison.sort_values('silhouette', ascending=False).head(10)"),
         nbf.v4.new_code_cell("profiles[['segment','customers','customer_share','total_revenue','average_orders','average_ticket','recommended_action']]"),
-        nbf.v4.new_markdown_cell("## Conclusión\n\nLa segmentación es preferible a predecir revenue porque `quantity` y `unit_price` reconstruyen matemáticamente el objetivo. El silhouette se interpreta como moderado y los segmentos requieren validación comercial futura."),
+        nbf.v4.new_markdown_cell("## Conclusión\n\nLa segmentación es preferible a predecir el valor bruto (`revenue`) porque `quantity` y `unit_price` reconstruyen matemáticamente el objetivo. El silhouette se interpreta como moderado y los segmentos requieren validación comercial futura."),
     ])
     return {"01_etl.ipynb": etl, "02_visualization.ipynb": visual, "03_model.ipynb": model}
 

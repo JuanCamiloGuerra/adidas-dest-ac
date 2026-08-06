@@ -28,7 +28,7 @@ DEFINITIONS = {
     "order_id": "Identificador del pedido.", "user_id": "Identificador del minorista.",
     "product_id": "Identificador del producto vendido.", "line_number": "Posición del producto dentro del pedido.",
     "unit_price": "Precio histórico registrado en la línea.", "quantity": "Unidades solicitadas en la línea.",
-    "revenue": "Ingreso bruto de la línea.", "price_segment": "Banda comercial según precio unitario.",
+    "revenue": "Valor bruto de la línea para cualquier estado; no equivale necesariamente a ingreso realizado.", "price_segment": "Banda comercial según precio unitario.",
     "catalog_price": "Precio actual del catálogo, conservado para comparación.",
     "discount_percentage": "Descuento de la línea o, si falta, del catálogo.",
     "data_quality_flag": "Lista de reglas de calidad activadas por la línea.",
@@ -95,4 +95,3 @@ La granularidad es una línea por combinación pedido-producto. Los posibles val
 
 if __name__ == "__main__":
     main()
-

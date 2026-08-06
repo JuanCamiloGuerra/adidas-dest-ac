@@ -60,8 +60,8 @@ def calculate_kpis(df: pd.DataFrame) -> dict[str, Any]:
             "units_sold": "Suma de quantity para líneas válidas.",
             "orders": "Conteo distinto de order_id con al menos una línea válida.",
             "customers": "Conteo distinto de user_id con al menos una línea válida.",
-            "average_order_revenue": "Ingreso total dividido por pedidos distintos.",
-            "average_unit_price": "Ingreso total dividido por unidades vendidas.",
+            "average_order_revenue": "Valor bruto total dividido por pedidos distintos.",
+            "average_unit_price": "Valor bruto total dividido por unidades vendidas.",
             "delivered_order_rate": "Pedidos entregados divididos por pedidos totales, a nivel pedido.",
         },
     }
@@ -118,7 +118,7 @@ def generate_insights(df: pd.DataFrame) -> list[dict[str, str]]:
         {
             "title": "Cumplimiento de pedidos",
             "observation": f"{delivered:.1%} de los pedidos están entregados y {cancelled:.1%} cancelados.",
-            "importance": "Los pedidos no entregados representan revenue operativo aún expuesto.",
+            "importance": "Los pedidos no entregados representan valor bruto operativo aún expuesto.",
             "implication": "Mejorar conversión de confirmados/enviados puede elevar ingreso realizado sin captar demanda nueva.",
             "action": "Crear seguimiento semanal por estado, país y canal; investigar causas de cancelación antes de definir metas.",
         },

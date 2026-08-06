@@ -18,7 +18,9 @@ Cada producto dentro de un pedido se convierte en una línea con `order_id`, `us
 
 ## Calidad y limpieza
 
-Se evalúan 18 reglas sobre duplicados, IDs, cantidades, precios, dominios, fechas, joins, diferencias de precio, outliers e incompletitud de producto. Los outliers se detectan por IQR, se cuantifican y se conservan: el contexto mayorista hace plausible una compra elevada. Una cantidad nula no se imputa porque inventaría unidades e ingreso. `valid_sales_flag` permite excluir líneas no válidas de KPIs sin borrarlas.
+Se evalúan 18 reglas sobre duplicados, IDs, cantidades, precios, dominios, fechas, joins, diferencias de precio, outliers e incompletitud de producto. Los outliers se detectan por IQR, se cuantifican y se conservan: el contexto mayorista hace plausible una compra elevada. Una cantidad nula no se imputa porque inventaría unidades y valor bruto. `valid_sales_flag` permite excluir líneas no válidas de KPIs sin borrarlas.
+
+El campo técnico `revenue = unit_price × quantity` representa valor bruto de la línea en todos los estados. Para hablar de ingreso realizado se filtran pedidos entregados y todavía se requiere evidencia de facturación, pago y devoluciones.
 
 ## Persistencia
 

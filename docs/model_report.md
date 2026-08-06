@@ -6,17 +6,17 @@
 
 ## Selección metodológica
 
-Se eligió clustering porque una regresión de `revenue` tendría alto riesgo de leakage: el objetivo está definido por `unit_price × quantity` y la cantidad final no es necesariamente conocida antes de confirmar el pedido.
+Se eligió clustering porque una regresión de `revenue` tendría alto riesgo de leakage: el objetivo está definido por `unit_price × quantity` y la cantidad final no es necesariamente conocida antes de confirmar el pedido. En la comunicación ejecutiva, `revenue` se interpreta como **valor bruto de pedidos**, no como ingreso realizado.
 
 Se compararon K-Means, clustering jerárquico y Gaussian Mixture entre 2 y 6 grupos. El resultado seleccionado es **Jerárquico con 2 segmentos**, `random_state=42` cuando aplica, silhouette de **0.310** y segmento mínimo de **15.3%**.
 
 ## Variables y preprocesamiento
 
-Pedidos, revenue, ticket, unidades, frecuencia, recencia, amplitud y concentración de categorías, participación Premium, país, tipo de minorista, categoría/canal/segmento dominante. Se imputa mediana en numéricas, moda en categóricas, `log1p` en variables monetarias/unidades, estandarización y one-hot encoding.
+Pedidos, valor bruto (`revenue`), ticket, unidades, frecuencia, recencia, amplitud y concentración de categorías, participación Premium, país, tipo de minorista, categoría/canal/segmento dominante. Se imputa mediana en numéricas, moda en categóricas, `log1p` en variables monetarias/unidades, estandarización y one-hot encoding.
 
 ## Perfiles
 
-| Segmento | Clientes | Participación | Revenue | Pedidos prom. | Ticket prom. | Acción |
+| Segmento | Clientes | Participación | Valor bruto | Pedidos prom. | Ticket prom. | Acción |
 |---|---:|---:|---:|---:|---:|---|
 | Socios estratégicos | 72 | 84.7% | USD 4,080,103 | 2.6 | USD 22,913 | Retención ejecutiva, acuerdos de surtido y plan conjunto de crecimiento. |
 | Reactivación prioritaria | 13 | 15.3% | USD 94,156 | 1.2 | USD 6,615 | Campaña de reactivación con contacto comercial y diagnóstico de abandono. |
